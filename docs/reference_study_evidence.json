@@ -1,0 +1,116 @@
+{
+  "reference_pages_previously_viewed": {
+    "2022_A001": [
+      6,
+      9,
+      15,
+      18
+    ],
+    "2022_A022": [
+      5,
+      8,
+      13,
+      18
+    ],
+    "2023_A092": [
+      9,
+      17,
+      18,
+      25
+    ],
+    "2023_B226": [
+      9,
+      14,
+      21,
+      24
+    ],
+    "2023_C050": [
+      3,
+      8,
+      17,
+      18
+    ],
+    "2023_C235": [
+      6,
+      10,
+      15,
+      20
+    ]
+  },
+  "new_reference_pages_viewed": {
+    "2023_B226": [
+      7,
+      13,
+      16,
+      19
+    ],
+    "2023_A092": [
+      12,
+      21,
+      26
+    ],
+    "2023_C050": [
+      22
+    ]
+  },
+  "reference_pages_revisited_in_detail": {
+    "2023_B226": [
+      24
+    ],
+    "2022_A001": [
+      6
+    ],
+    "2023_C050": [
+      17
+    ],
+    "2023_A092": [
+      9,
+      18
+    ]
+  },
+  "unique_reference_page_count": 32,
+  "current_paper_pages_viewed": [
+    5,
+    7,
+    11,
+    12,
+    19,
+    21,
+    24,
+    28
+  ],
+  "scope": "Reference study only; no paper or figure edits",
+  "paper_baseline_commit": "237b733",
+  "reference_files": [
+    {
+      "id": "2022_A001",
+      "url": "https://media.githubusercontent.com/media/yushugulao/CUMCM-Archive/main/%E7%AB%9E%E8%B5%9B%E8%B5%84%E6%96%99/2022/A/%E4%BC%98%E7%A7%80%E8%AE%BA%E6%96%87/A001.pdf",
+      "sha256": "ea46078154d58436ffd27a2cf644230140afdba26f04f041e5f1a84c2fbd0468"
+    },
+    {
+      "id": "2022_A022",
+      "url": "https://media.githubusercontent.com/media/yushugulao/CUMCM-Archive/main/%E7%AB%9E%E8%B5%9B%E8%B5%84%E6%96%99/2022/A/%E4%BC%98%E7%A7%80%E8%AE%BA%E6%96%87/A022.pdf",
+      "sha256": "218ae89310b68af4ac72837d6a3c6119629078c50a1fd3f9f45b856f3cbf883b"
+    },
+    {
+      "id": "2023_A092",
+      "url": "https://media.githubusercontent.com/media/yushugulao/CUMCM-Archive/main/%E7%AB%9E%E8%B5%9B%E8%B5%84%E6%96%99/2023/A/%E4%BC%98%E7%A7%80%E8%AE%BA%E6%96%87/A092.pdf",
+      "sha256": "6f19a1e21443043cc30e3ca70ecf41dd41152205ffa143adbbd2e99fd307bc8e"
+    },
+    {
+      "id": "2023_B226",
+      "url": "https://media.githubusercontent.com/media/yushugulao/CUMCM-Archive/main/%E7%AB%9E%E8%B5%9B%E8%B5%84%E6%96%99/2023/B/%E4%BC%98%E7%A7%80%E8%AE%BA%E6%96%87/B226.pdf",
+      "sha256": "6575167cc2cace9fc4f7a2d9e654128803b4270096fcb2e63b27ef05faf7a33d"
+    },
+    {
+      "id": "2023_C050",
+      "url": "https://media.githubusercontent.com/media/yushugulao/CUMCM-Archive/main/%E7%AB%9E%E8%B5%9B%E8%B5%84%E6%96%99/2023/C/%E4%BC%98%E7%A7%80%E8%AE%BA%E6%96%87/C050.pdf",
+      "sha256": "8842b1e70acb03dc82171ea016b19aaabd0da043ce16878b384bc3c212adb510"
+    },
+    {
+      "id": "2023_C235",
+      "url": "https://media.githubusercontent.com/media/yushugulao/CUMCM-Archive/main/%E7%AB%9E%E8%B5%9B%E8%B5%84%E6%96%99/2023/C/%E4%BC%98%E7%A7%80%E8%AE%BA%E6%96%87/C235.pdf",
+      "sha256": "84724f950dfe248bddef91071909dead68dd3717f17f580e8b9ea2e5e842a25b"
+    }
+  ]
+}
