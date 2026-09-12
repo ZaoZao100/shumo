@@ -1,0 +1,1382 @@
+[
+  {
+    "source": "restrained_revision_3\\figures\\data_att1_profile.json",
+    "destination": "figures\\data_att1_profile.json",
+    "sha256": "5a6f1fc1dfa7c6adf3f5eac245181516165c321ed7c2e597a2572a6bffceca66"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\data_eta_sensitivity.json",
+    "destination": "figures\\data_eta_sensitivity.json",
+    "sha256": "009ad84d797fda7a75e3322c733f0435aa504a58e0be4529bf58dbf28e3b1c9b"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\data_forecast_decay.json",
+    "destination": "figures\\data_forecast_decay.json",
+    "sha256": "8c280e6d41e716dda49cbfb64afd756c2a730550fbbcdea4bba75cd48e097c9c"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\data_forecast_same_target.json",
+    "destination": "figures\\data_forecast_same_target.json",
+    "sha256": "ff90601bab642fd6b6a0d838212f9b7ab49f772eaf0b7847f623f7fcfd25fca3"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\data_load_calendar.json",
+    "destination": "figures\\data_load_calendar.json",
+    "sha256": "df3f9177d237340ac47e2420d1343d06c4f18fc298e33a4f0fd21d00e755884e"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\data_load_regime.json",
+    "destination": "figures\\data_load_regime.json",
+    "sha256": "9ec4668a6654fcc2422a0d6a50318ff1751cd134adbefbdec78228bf835bcbb8"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\data_predictor_mae.json",
+    "destination": "figures\\data_predictor_mae.json",
+    "sha256": "0a3ead4a35531868eff3280540f02e5595e4a38d34656c7a07137e91c1554d86"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\data_q1_dispatch.json",
+    "destination": "figures\\data_q1_dispatch.json",
+    "sha256": "e8c54e16927def4add9c69721a9598affc69f4d88fd80cab5b376e8f91c73e11"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\data_q1_savings_waterfall.json",
+    "destination": "figures\\data_q1_savings_waterfall.json",
+    "sha256": "9cdb5b40ffaa6cc6aaa55f77da76168d60e4806197eed0ff85de83098d4906b2"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\data_q2_emergency_calendar.json",
+    "destination": "figures\\data_q2_emergency_calendar.json",
+    "sha256": "8c3aa44c8c31d6737d4f34c7538fcc43634781bbe6e0acf5a3dc5753ecca3d02"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\data_q2_margin_ucurve.json",
+    "destination": "figures\\data_q2_margin_ucurve.json",
+    "sha256": "4a341e8ee7459c518c923ea6b6cda0032bf8d1d7e1a8d2786de27ddcdbb166d2"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\data_q3_cost_decomp.json",
+    "destination": "figures\\data_q3_cost_decomp.json",
+    "sha256": "40db245de59457128b16509242459af02dd992b46c53af7a820882edf9fee2d4"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\data_q3_interp_check.json",
+    "destination": "figures\\data_q3_interp_check.json",
+    "sha256": "6989502aee491a14f93d8d02cad68dc7f385badfce3622ed57345f5c4162923b"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\data_q3_rolling_timeline.json",
+    "destination": "figures\\data_q3_rolling_timeline.json",
+    "sha256": "ea0d5bf275c564260aea099a0273b79e6df224f60081eb6ea91e12de8d018d03"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\data_q4_fixed_vs_vol.json",
+    "destination": "figures\\data_q4_fixed_vs_vol.json",
+    "sha256": "48d2f7dc0a34e9ebee5dccf6e09d047830e34d4fb785aa5db20b23e73894a424"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\data_q4_price.json",
+    "destination": "figures\\data_q4_price.json",
+    "sha256": "d8aff994c47e0c739e55d9e43e55d9a7a3582f607ff669c9051e6bb35bb1a065"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\data_regime_shape.json",
+    "destination": "figures\\data_regime_shape.json",
+    "sha256": "8a083399c602dd7f9fc3b9c480e0103a57c160a884f2fbf49f50088fa308a42f"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\data_settlement_rule.json",
+    "destination": "figures\\data_settlement_rule.json",
+    "sha256": "e8aaf34fe7b8a71fdeb3133032f316ce0a6dd6b77c683f6c18eb12225cda49c6"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_arch_solver.html",
+    "destination": "figures\\fig_arch_solver.html",
+    "sha256": "ea55fca73572c5e830a080f9d506f07e0d1d85c8f60b565b5adcc43c0dc6cc04"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_arch_solver.pdf",
+    "destination": "figures\\fig_arch_solver.pdf",
+    "sha256": "0679b61d07c39ca7e144ed596616d7428185a902fd4412039dd64fee1962c24a"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_arch_solver.png",
+    "destination": "figures\\fig_arch_solver.png",
+    "sha256": "d9fea493e599e5cc10b07709e16c0ff188ba589acbfb826a250269d3650513ad"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_arch_solver.svg",
+    "destination": "figures\\fig_arch_solver.svg",
+    "sha256": "aed1b85001fca18011f10fc8a3ff7903452955edfe0628539126e644c398fd99"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_att1_profile.pdf",
+    "destination": "figures\\fig_att1_profile.pdf",
+    "sha256": "a4e50bc49dd958c1cdcbfb7cd55fee5cca4370024b35cde8ea6451a3939d9d81"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_att1_profile.png",
+    "destination": "figures\\fig_att1_profile.png",
+    "sha256": "5bf38a72ed7a4e99962ab50617fd000160839864cb17dd6dbdae58654482810f"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_energy_flow.html",
+    "destination": "figures\\fig_energy_flow.html",
+    "sha256": "09313a1623b6ca923cae5e7fa4c28b5b4100d6535bba1276bc911d232420e47e"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_energy_flow.pdf",
+    "destination": "figures\\fig_energy_flow.pdf",
+    "sha256": "1756d0b772c77b065c2af63941ce24ce8cca75f24023c4f4126ff9a671463747"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_energy_flow.png",
+    "destination": "figures\\fig_energy_flow.png",
+    "sha256": "dcdc45ba77337bb63c4fbe5f8fc9642312681e2ab95377055e5f92b0cd274d4a"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_energy_flow.svg",
+    "destination": "figures\\fig_energy_flow.svg",
+    "sha256": "58cab021e565024cdf4f51c4dad518b4acf839b31415aba880448e19d28bdb03"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_eta_sensitivity.pdf",
+    "destination": "figures\\fig_eta_sensitivity.pdf",
+    "sha256": "ba36c562a1d16213525e61fde8312b40ecd8fae8678915b394a2a5dc563632ac"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_eta_sensitivity.png",
+    "destination": "figures\\fig_eta_sensitivity.png",
+    "sha256": "a9818aadee6717db9321f26e634b4c05dda35f5082158f64668fecaae2b0db6f"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_forecast_decay.pdf",
+    "destination": "figures\\fig_forecast_decay.pdf",
+    "sha256": "d9edd525041943af55fee85af207c04f661c4bfa82eb2ee4ed279964c95a8412"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_forecast_decay.png",
+    "destination": "figures\\fig_forecast_decay.png",
+    "sha256": "08b591ac290913fb4d422064482eee15ad26d77cab110c00d8a3ceb1de86f556"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_forecast_same_target.pdf",
+    "destination": "figures\\fig_forecast_same_target.pdf",
+    "sha256": "0ccf17de612ecf32ab382c6391022e14458db338f1d5090a6e1ed89dd47a9957"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_forecast_same_target.png",
+    "destination": "figures\\fig_forecast_same_target.png",
+    "sha256": "553769fbf74e892db6d9ea79dc9c82b91ff9ab1892660f70ca5f4d997712f762"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_load_calendar.pdf",
+    "destination": "figures\\fig_load_calendar.pdf",
+    "sha256": "21910aad93c3c6b41293f93b5887858e555c93af99435a7e81e44ebafd443cb8"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_load_calendar.png",
+    "destination": "figures\\fig_load_calendar.png",
+    "sha256": "3738d0206a53b2f800ef1329c3d44451356642afa2e5afe638d840e44beeb973"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_load_regime_ridgeline.pdf",
+    "destination": "figures\\fig_load_regime_ridgeline.pdf",
+    "sha256": "952a3b5a9149e5b8383370857a4b5140fe2b23b830ceaee59dfc930fa5730c45"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_load_regime_ridgeline.png",
+    "destination": "figures\\fig_load_regime_ridgeline.png",
+    "sha256": "a3884d284657b87e2848beba2239aaaa696b7799e20ca9a527b8e893c5d2164e"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_predictor_mae_bar.pdf",
+    "destination": "figures\\fig_predictor_mae_bar.pdf",
+    "sha256": "b536e036a7714c22ac4652be3e39b23c4bc0803d9d1ff62876d40f123bad6e4c"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_predictor_mae_bar.png",
+    "destination": "figures\\fig_predictor_mae_bar.png",
+    "sha256": "c00f774297bcf6b4eab6ed2c7bfdf54322a0ba0b9ca9322056f4d05509bc5a17"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q1_dispatch_stack.pdf",
+    "destination": "figures\\fig_q1_dispatch_stack.pdf",
+    "sha256": "8bb3ed0efb21f38ffa7bce1a6cbbccc155613b44b847adeed516532555c0f235"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q1_dispatch_stack.png",
+    "destination": "figures\\fig_q1_dispatch_stack.png",
+    "sha256": "30c70fa7bcbe78709d9b938673eaaf5776d9f57ef548536636931b981ffb27e5"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q1_savings_waterfall.pdf",
+    "destination": "figures\\fig_q1_savings_waterfall.pdf",
+    "sha256": "dbcd857989683fc5c4fbe3027c1efc3a2390dece3c989bee2abf9f484ceb8837"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q1_savings_waterfall.png",
+    "destination": "figures\\fig_q1_savings_waterfall.png",
+    "sha256": "386967b4a386267fc08135a26a6baf4d5f2a4f3025b8806490aa59152ef6a571"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q1_soc_price.pdf",
+    "destination": "figures\\fig_q1_soc_price.pdf",
+    "sha256": "87345f0bdbb99a56c2a3b8d3b91acfe0d87f2061736d11568a4dcdf64cad6fdc"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q1_soc_price.png",
+    "destination": "figures\\fig_q1_soc_price.png",
+    "sha256": "b7e8bc315c4af2389c19958986ed3244764df3436e5cae83737c74372bbd65cb"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q2_emergency_calendar.pdf",
+    "destination": "figures\\fig_q2_emergency_calendar.pdf",
+    "sha256": "72a709aeeb04da42db7ae89fb2ae8782c83ef9a543218ff9d98b67f7a85ef505"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q2_emergency_calendar.png",
+    "destination": "figures\\fig_q2_emergency_calendar.png",
+    "sha256": "ae53faa0c420e5d80eb4b67473b52fbb2561ee1b5362a6feec5e3e12a6ea7d2b"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q2_margin_ucurve.pdf",
+    "destination": "figures\\fig_q2_margin_ucurve.pdf",
+    "sha256": "edff352a006b559cc09df7129b608af36776522997213f32d5edfae6a0849f24"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q2_margin_ucurve.png",
+    "destination": "figures\\fig_q2_margin_ucurve.png",
+    "sha256": "921ae2dd03e989c5aba102ea3a2cca191ab594b6b1730d5f7b9c887667f6b15a"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q3_cost_decomp.pdf",
+    "destination": "figures\\fig_q3_cost_decomp.pdf",
+    "sha256": "a9985e083ad06aec02cb1cda5844e73119d1296d3fe3eecc3975c8a639981904"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q3_cost_decomp.png",
+    "destination": "figures\\fig_q3_cost_decomp.png",
+    "sha256": "7ad7f917ded9c0eb98a08f55518a9637165507dd3087394226b7e48c7cd58c8a"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q3_interp_check.pdf",
+    "destination": "figures\\fig_q3_interp_check.pdf",
+    "sha256": "7a6aa27387f64129caf6f7120421afbc6a497e37e10df877c6408d5599e07894"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q3_interp_check.png",
+    "destination": "figures\\fig_q3_interp_check.png",
+    "sha256": "32ef6af87c5430a3363a9afe183e1fbaf3aa1a48673d0798f8af0e905d5360b1"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q3_rolling_timeline.pdf",
+    "destination": "figures\\fig_q3_rolling_timeline.pdf",
+    "sha256": "b31fc98ba0a7dfc8f7d7fb78e0e5dfe5fc9f79c31fcd2aff1c59cac129f9d95e"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q3_rolling_timeline.png",
+    "destination": "figures\\fig_q3_rolling_timeline.png",
+    "sha256": "89a43248fa8033aac286b41bb098626ea7a6968ae6ddd3a285626ac4a0906ef8"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q4_fixed_vs_vol.pdf",
+    "destination": "figures\\fig_q4_fixed_vs_vol.pdf",
+    "sha256": "7f6151cfcdc6a44838704c984ec09d4db67d9cac53250ecf2206b415f4cf0aec"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q4_fixed_vs_vol.png",
+    "destination": "figures\\fig_q4_fixed_vs_vol.png",
+    "sha256": "b778d5e800d46b485e5cfa8e174f9badb34620e7e9d9f6f1bc32cac765f894bc"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q4_price_hovmoller.pdf",
+    "destination": "figures\\fig_q4_price_hovmoller.pdf",
+    "sha256": "2dbd79f0a905deb70baedfaaa48a31205d23541468e1f9b5de36fb2e3c83c843"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q4_price_hovmoller.png",
+    "destination": "figures\\fig_q4_price_hovmoller.png",
+    "sha256": "3b8f04952b5b7301f49d8ea500231645d2abe32bd4aeb33dede382b6cc532c0c"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q4_price_ridgeline.pdf",
+    "destination": "figures\\fig_q4_price_ridgeline.pdf",
+    "sha256": "7f9af029a0b279f1ad85d168274145cdd0e88e2412576cf3047f37be53714732"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_q4_price_ridgeline.png",
+    "destination": "figures\\fig_q4_price_ridgeline.png",
+    "sha256": "6e9f7560001601b570dfe8cb4c7b5df12bf7ca19e2588ec28b3ed496ab6e67f4"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_regime_shape.pdf",
+    "destination": "figures\\fig_regime_shape.pdf",
+    "sha256": "d32b895e4cdadf2165a41a5167209e57833845796e363bbee9debe2d9de42308"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_regime_shape.png",
+    "destination": "figures\\fig_regime_shape.png",
+    "sha256": "b69754220e2f613cba8f260652e8895139e27930eafe5324b9a45f23d4201087"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_roadmap.html",
+    "destination": "figures\\fig_roadmap.html",
+    "sha256": "00a9ab5ddddc5496a6b3809b56b05904027fe5a711c6418ff42095b2eedb7b75"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_roadmap.pdf",
+    "destination": "figures\\fig_roadmap.pdf",
+    "sha256": "050846e1c98b9ff72b9382c51dd9e943a5e4ae3c11bd01b07c5e78382e34afe8"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_roadmap.png",
+    "destination": "figures\\fig_roadmap.png",
+    "sha256": "7b4f960ec5e90ad7623346345448822d2e2650ab57c6ee8b7c30e9e9894ab5c7"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_roadmap.svg",
+    "destination": "figures\\fig_roadmap.svg",
+    "sha256": "7742d486ad3af7782d7ac7cea2d248bcfe768caf2b481f9b9a35731d588b3081"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_rolling_benefit_uncertainty.pdf",
+    "destination": "figures\\fig_rolling_benefit_uncertainty.pdf",
+    "sha256": "dd79ae15bc5b3ce7f81f175bf1cb6cd854f4cd69478fb9b1827447a541c0946d"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_rolling_benefit_uncertainty.png",
+    "destination": "figures\\fig_rolling_benefit_uncertainty.png",
+    "sha256": "1f38c9cf8e4078e89cdf4d0962d6824d5b9a7f527b6860b453933817b0a69c6f"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_settlement_rule.pdf",
+    "destination": "figures\\fig_settlement_rule.pdf",
+    "sha256": "e99827a4d9e5567aacfdf397607ae61410934a39b41fd41c69141534bddc5c96"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\fig_settlement_rule.png",
+    "destination": "figures\\fig_settlement_rule.png",
+    "sha256": "403ecd346d999a0c923ecd48d44d14dc3688d9473c02902f1f15a39188aedbdc"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_att1_profile.py",
+    "destination": "figures\\gen_fig_att1_profile.py",
+    "sha256": "3495741c02fbe03e258a31182aef3535d70c035db7da3c1b300cb3ac22dd229d"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_eta_sensitivity.py",
+    "destination": "figures\\gen_fig_eta_sensitivity.py",
+    "sha256": "61bfab7e89bb04fad2a5ab9a8d30fcbc3854029a1b1d9be8d37236fddf53954f"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_forecast_decay.py",
+    "destination": "figures\\gen_fig_forecast_decay.py",
+    "sha256": "2ef289ae6634a07d7513c851f3803c16d69356583243c7433bd1a8fcc64b970f"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_forecast_same_target.py",
+    "destination": "figures\\gen_fig_forecast_same_target.py",
+    "sha256": "002ff09fb6f870af263d7e55e66c5f6e02c98e55bbe876e599a60fdba32ff080"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_load_calendar.py",
+    "destination": "figures\\gen_fig_load_calendar.py",
+    "sha256": "ffb5760bab334a7d0d0d3ff7bc1b9b56fb25605a17cb4b79314326e29fbe761e"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_load_regime_ridgeline.py",
+    "destination": "figures\\gen_fig_load_regime_ridgeline.py",
+    "sha256": "eb156822152a35599c6361438c746ccbd0b84cfeb9d82224ef92b836c268024a"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_predictor_mae_bar.py",
+    "destination": "figures\\gen_fig_predictor_mae_bar.py",
+    "sha256": "020a175fd739d283a6a8142d132fd8d91d36172b056562f0568f613588eaf65f"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_q1_dispatch_stack.py",
+    "destination": "figures\\gen_fig_q1_dispatch_stack.py",
+    "sha256": "e8a1ec27e7a79028992d14ab052a1581a79ab75e3d914a82affda92369f32b8a"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_q1_savings_waterfall.py",
+    "destination": "figures\\gen_fig_q1_savings_waterfall.py",
+    "sha256": "411ac296969c0bc9680f12299463e6fba56a6e479182392680d2f25d787afaab"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_q1_soc_price.py",
+    "destination": "figures\\gen_fig_q1_soc_price.py",
+    "sha256": "dc5394cbfe04b3b1c1972eacfa43fecd44e17150feb360a796c2307e52d7ff7c"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_q2_emergency_calendar.py",
+    "destination": "figures\\gen_fig_q2_emergency_calendar.py",
+    "sha256": "beefd0c2737ea689f547694c5a7ef6d23582a4d97c0255472d4c39cfb0161a62"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_q2_margin_ucurve.py",
+    "destination": "figures\\gen_fig_q2_margin_ucurve.py",
+    "sha256": "676463aa8dc61efe9969642c8142a0a28f5228df2cdb46230e942e9b346e9271"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_q3_cost_decomp.py",
+    "destination": "figures\\gen_fig_q3_cost_decomp.py",
+    "sha256": "e66fa76027d6800272a4862f5d8455620ed96fd9430b6df4f7c7f97df1da814c"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_q3_interp_check.py",
+    "destination": "figures\\gen_fig_q3_interp_check.py",
+    "sha256": "ee845da328ef0c5a4f33d2391d7799d973dc595fac4ee826c1cf14355449adf1"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_q3_rolling_timeline.py",
+    "destination": "figures\\gen_fig_q3_rolling_timeline.py",
+    "sha256": "676463aa8dc61efe9969642c8142a0a28f5228df2cdb46230e942e9b346e9271"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_q4_fixed_vs_vol.py",
+    "destination": "figures\\gen_fig_q4_fixed_vs_vol.py",
+    "sha256": "9d3399edbbbe257d3b644c4a0ad1949390b25f254dc4001b675a07ed611698e4"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_q4_price_hovmoller.py",
+    "destination": "figures\\gen_fig_q4_price_hovmoller.py",
+    "sha256": "b9f4a46a6a1f0b1bc4c3081e4ad5ffe5f9880f3d29a08fd4a751da974476d05d"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_q4_price_ridgeline.py",
+    "destination": "figures\\gen_fig_q4_price_ridgeline.py",
+    "sha256": "d45fcf1d973eea4901f5c5a73b5a3c860122041ab58ae85ea82c34f02a9c0cf5"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_fig_regime_shape.py",
+    "destination": "figures\\gen_fig_regime_shape.py",
+    "sha256": "2d08334d8d0eed11a10cd19a262d19b5d9c8d83da6f1bf77c9076f2746edb7b5"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\gen_v3_figures.py",
+    "destination": "figures\\gen_v3_figures.py",
+    "sha256": "880ab55126f0681b4dfbe96d7ed139f8267bff9c1ad1b6d133858297b90dd1f4"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\latex_includes.tex",
+    "destination": "figures\\latex_includes.tex",
+    "sha256": "36d5ff5c766900282a8807a692460d28c78a822a0d9545381ff0963467d86cc5"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\prep_fig_data.py",
+    "destination": "figures\\prep_fig_data.py",
+    "sha256": "a08715c4f4d8ff28867083d0db2b2e1c34ed53c534e7dec28ff3f00ae8feb99a"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\tikz_feasible_q1.pdf",
+    "destination": "figures\\tikz_feasible_q1.pdf",
+    "sha256": "927b60347eb4e5e06df5d68226630b23cf0b6cdab684e811e95fac565ec3daf0"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\tikz_feasible_q1.png",
+    "destination": "figures\\tikz_feasible_q1.png",
+    "sha256": "b686712594b67ae92d8745b4828c6eb0b26a8775e34e7656cc90f46d0aa5ff28"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\tikz_feasible_q1.tex",
+    "destination": "figures\\tikz_feasible_q1.tex",
+    "sha256": "651bb3e30a2913d0e667566124a042dc3c162299649ce4b0d135d2edf6f0c230"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\tikz_info_set.pdf",
+    "destination": "figures\\tikz_info_set.pdf",
+    "sha256": "3b0be1275bc9d39334f4a50baf943a3ebbff80bd997fbec1f97f596ec8e1e76e"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\tikz_info_set.png",
+    "destination": "figures\\tikz_info_set.png",
+    "sha256": "c5f939c36d1f55e8b96efe6c149491f0d58a2eb935cf2fc26ec21331e6efe15d"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\tikz_info_set.tex",
+    "destination": "figures\\tikz_info_set.tex",
+    "sha256": "b0594302eb408bc24baa880a285341255e1aa378407a764e7519ad63bba53d2c"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\tikz_soc_corridor.pdf",
+    "destination": "figures\\tikz_soc_corridor.pdf",
+    "sha256": "a74c61cad99dd639c30f34ef7d01785a1098d13a9ab1f1779878c1741675af06"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\tikz_soc_corridor.png",
+    "destination": "figures\\tikz_soc_corridor.png",
+    "sha256": "23040ade76649e71bf75191f3ef322fdfc3bb188f875011ea530b71feea80370"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\tikz_soc_corridor.tex",
+    "destination": "figures\\tikz_soc_corridor.tex",
+    "sha256": "bdadce3498b2788ac5495838093db67d42bc8bdeb1eebe261c884a3ad6544fea"
+  },
+  {
+    "source": "restrained_revision_3\\figures\\_figcommon.py",
+    "destination": "figures\\_figcommon.py",
+    "sha256": "34867dd476973c0eb6d25a0b38039be1b346d348b450c1f40a1843f102c3816e"
+  },
+  {
+    "source": "restrained_revision_3\\sources\\benchmark_mapping.json",
+    "destination": "sources\\benchmark_mapping.json",
+    "sha256": "eda9681adb08a68c34e12d96dc5fe683c09d8517559f628be7fde24cac6b56e5"
+  },
+  {
+    "source": "restrained_revision_3\\sources\\daily_paired_cost_differences.csv",
+    "destination": "sources\\daily_paired_cost_differences.csv",
+    "sha256": "6e7036994bc72b1493908f3819a5e88948e755847e385361a36c1825f87337cd"
+  },
+  {
+    "source": "restrained_revision_3\\sources\\extreme_day_performance.csv",
+    "destination": "sources\\extreme_day_performance.csv",
+    "sha256": "81d69ac287685c18b8837b559220a46a5eff48a7ab2180ba92afd20073436314"
+  },
+  {
+    "source": "restrained_revision_3\\sources\\params.py",
+    "destination": "sources\\params.py",
+    "sha256": "9548131b4042e170f531cc77f0007572bea001f27181f4c882a3e301dca6d28f"
+  },
+  {
+    "source": "restrained_revision_3\\sources\\problem2.py",
+    "destination": "sources\\problem2.py",
+    "sha256": "e7853ff1197b2a766fceadfb8d54c35191e585fc06474d63fe3f6f67ab409c31"
+  },
+  {
+    "source": "restrained_revision_3\\sources\\problem3.py",
+    "destination": "sources\\problem3.py",
+    "sha256": "a419f9910b8844d972773e5c827696c1ae65a2d5307b71da92022d12b6bc30d7"
+  },
+  {
+    "source": "restrained_revision_3\\sources\\REFERENCE_STUDY.md",
+    "destination": "sources\\REFERENCE_STUDY.md",
+    "sha256": "89870319022eae152b350434fd552209bf08e2ee00083dbde7093853f1c74181"
+  },
+  {
+    "source": "restrained_revision_3\\sources\\seasonal_performance.csv",
+    "destination": "sources\\seasonal_performance.csv",
+    "sha256": "5df2d0ab80ceb944a30c3f55f0e795c203f9a1c9cf7fb0e7667be08a411ff8db"
+  },
+  {
+    "source": "restrained_revision_3\\sources\\settle.py",
+    "destination": "sources\\settle.py",
+    "sha256": "38565713241f628b947758186bd95f4b70e965a2f5675bcf20bc3eb93a8aa104"
+  },
+  {
+    "source": "restrained_revision_3\\sources\\statistical_uncertainty.json",
+    "destination": "sources\\statistical_uncertainty.json",
+    "sha256": "72aef09cd8548116f4c4aa94be26d52aed9d57bdb7d454e35761982903315dac"
+  },
+  {
+    "source": "restrained_revision_3\\sources\\V2_FIGURE_REVIEW_REPORT.md",
+    "destination": "sources\\V2_FIGURE_REVIEW_REPORT.md",
+    "sha256": "ccc37ed99e7bdfce6532b3820697dcd43740a6635a9f1e54138f6ef83d08707c"
+  },
+  {
+    "source": "restrained_revision_3\\sources\\v2_gen_fig_q2_margin_ucurve.py",
+    "destination": "sources\\v2_gen_fig_q2_margin_ucurve.py",
+    "sha256": "6c0943a89e1f0af1bcf3fdf8f01f3154da3f366cc824a3c8ef403dfc52f9c317"
+  },
+  {
+    "source": "restrained_revision_3\\sources\\v2_gen_fig_q3_rolling_timeline.py",
+    "destination": "sources\\v2_gen_fig_q3_rolling_timeline.py",
+    "sha256": "6930a54732058deff578f02750bcfdc8b6f02a49217e3d2bf7ff0f766cf6326b"
+  },
+  {
+    "source": "restrained_revision_3\\sources\\V2_PAPER_PLAN.md",
+    "destination": "sources\\V2_PAPER_PLAN.md",
+    "sha256": "80faf704e224317c7d60b160c3399d71e20ed325a0c47d6957ba2d7cb9407f04"
+  },
+  {
+    "source": "restrained_revision_3\\review\\baseline_schema.txt",
+    "destination": "review\\baseline_schema.txt",
+    "sha256": "64b933c878614fbefa5c12e37d7299415518f8fa565906a56a071fc483afa52b"
+  },
+  {
+    "source": "restrained_revision_3\\review\\caption_map.json",
+    "destination": "review\\caption_map.json",
+    "sha256": "72bc6fd47991ecb599edd2fee745467fc09ef2c470fee1cdb4c811695620c42a"
+  },
+  {
+    "source": "restrained_revision_3\\review\\completion.json",
+    "destination": "review\\completion.json",
+    "sha256": "a520809aa9efa1ee95a5a38258cf2af3741f57d111a98d0a2fcfddda02171ad2"
+  },
+  {
+    "source": "restrained_revision_3\\review\\COMPLETION_AUDIT.md",
+    "destination": "review\\COMPLETION_AUDIT.md",
+    "sha256": "fa67aa909478f8c920a6735c7a5a7631490aed696781221d439612d3a0ed8b2c"
+  },
+  {
+    "source": "restrained_revision_3\\review\\cross_media_audit.json",
+    "destination": "review\\cross_media_audit.json",
+    "sha256": "9e69888012952bbef35b1cedfa906606136a668d0cf83b583315ac23f059102a"
+  },
+  {
+    "source": "restrained_revision_3\\review\\delivery_manifest.json",
+    "destination": "review\\delivery_manifest.json",
+    "sha256": "bce5713803b063fccc44c4fec7e83a57c2e4da5e9983715e6213290d658efe55"
+  },
+  {
+    "source": "restrained_revision_3\\review\\docx_replacement_report.json",
+    "destination": "review\\docx_replacement_report.json",
+    "sha256": "bb0e3c1e5a05aeebd1d1254da9b26e61b18b4cf4d758302f8d030515b3b6cce6"
+  },
+  {
+    "source": "restrained_revision_3\\review\\docx_revision_audit.json",
+    "destination": "review\\docx_revision_audit.json",
+    "sha256": "6ff5ab70254d76a12bfbc8b273be0b71fcfbc2d7637538538624ea920709fca8"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_output_audit.json",
+    "destination": "review\\figure_output_audit.json",
+    "sha256": "cdbf44fd73105f75238fe566673bce1f782f484b7f73ac3099282ef56c55e0ca"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_review_v3.json",
+    "destination": "review\\figure_review_v3.json",
+    "sha256": "cdc6803f88d06ad137600e7f568dfd0fb55cd093fce4b282976cf3c7e78c896b"
+  },
+  {
+    "source": "restrained_revision_3\\review\\final_hash_audit.json",
+    "destination": "review\\final_hash_audit.json",
+    "sha256": "1f3aaf7b391a62b4bc0a85e2625e0005fb51947f3a2e049811ac3c07bfcc5027"
+  },
+  {
+    "source": "restrained_revision_3\\review\\final_page_comparison.json",
+    "destination": "review\\final_page_comparison.json",
+    "sha256": "eecf76d5e0a60ca1cb572e36ddee7becebb89ed1b292c936b72374ff6be477bd"
+  },
+  {
+    "source": "restrained_revision_3\\review\\first_render_page_hashes.json",
+    "destination": "review\\first_render_page_hashes.json",
+    "sha256": "471394a1e3ea855da45fbaca5de05ab425d511b42f0fba7700cf6b6ab665a983"
+  },
+  {
+    "source": "restrained_revision_3\\review\\full_text_diff.patch",
+    "destination": "review\\full_text_diff.patch",
+    "sha256": "1bf79fbd33015d7bef1c6f3d9304878b189f79a9da0f3827856972e8da4438f1"
+  },
+  {
+    "source": "restrained_revision_3\\review\\math_corrections.json",
+    "destination": "review\\math_corrections.json",
+    "sha256": "a4008a674485e696b12eb7179b19a599167f885bdfaf0b965aa4e57bd28e6b98"
+  },
+  {
+    "source": "restrained_revision_3\\review\\page_review.json",
+    "destination": "review\\page_review.json",
+    "sha256": "c9be0571b11d144be14b522a1e5d9bdbb008a53e1cba248a91c1b4bd7adbe296"
+  },
+  {
+    "source": "restrained_revision_3\\review\\PAGE_REVIEW.md",
+    "destination": "review\\PAGE_REVIEW.md",
+    "sha256": "56c92890a4a15f176175ff15d2a13ae220438b826d6af33462e4881487bdeaa4"
+  },
+  {
+    "source": "restrained_revision_3\\review\\paragraph_index.json",
+    "destination": "review\\paragraph_index.json",
+    "sha256": "70abfc2f8713fae72999e6a32828c33a2e6cb02a87aa470818a6b3caf3275028"
+  },
+  {
+    "source": "restrained_revision_3\\review\\protected_hashes_before.json",
+    "destination": "review\\protected_hashes_before.json",
+    "sha256": "0c6559dd75deb244fd47dafbafe523b0d585f15ebdc2740f99d8c854524b3281"
+  },
+  {
+    "source": "restrained_revision_3\\review\\text_edits.json",
+    "destination": "review\\text_edits.json",
+    "sha256": "a80d7a6e436197379eb0d69dd2407652273bd79bcd4707bd238fed7b5bd2f274"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v1_hash_audit.json",
+    "destination": "review\\v1_hash_audit.json",
+    "sha256": "5feaf16079123bb64a93e25d7fd6012ff81f31555a84f3caa9864cd8b00c2d92"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_paper_text.txt",
+    "destination": "review\\v3_paper_text.txt",
+    "sha256": "afcdf3e4519f1354582e4202d62b5855482e094778f34d6ae8bd4909287305a5"
+  },
+  {
+    "source": "restrained_revision_3\\review\\word_export.log",
+    "destination": "review\\word_export.log",
+    "sha256": "61f30e6d0cc2e20a7b0b249f476ad877122b14713b97fe233e5c9452a3288a81"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-01.png",
+    "destination": "review\\figure_pairs\\figure-01.png",
+    "sha256": "80e483c2892b8b6ca35e338c6b326531a018e1fd6e8d2fcedcea490813183689"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-02.png",
+    "destination": "review\\figure_pairs\\figure-02.png",
+    "sha256": "63107be4770fe4111fdaef3abba92470275c2947f9623e7e7389c88f66ff41c0"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-03.png",
+    "destination": "review\\figure_pairs\\figure-03.png",
+    "sha256": "4c024e3a1cf4e9f5e7c19598cc2bf771fd6f01b0d02e8e3b590e8cf5743d1762"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-04.png",
+    "destination": "review\\figure_pairs\\figure-04.png",
+    "sha256": "28cd087ea6b2909e95ed6db25ac2927ea1a4ead4ad22df1d97edaf00731681bf"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-05.png",
+    "destination": "review\\figure_pairs\\figure-05.png",
+    "sha256": "ff6d0695a7a68add2e4097ce5abccf71cd2d938aabfe97b1cf7bcc3c6539388a"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-06.png",
+    "destination": "review\\figure_pairs\\figure-06.png",
+    "sha256": "4cd1e43954a382e4d273e33a6fdf76ce53bbe555e333004bb7cdf5e9dd07348c"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-07.png",
+    "destination": "review\\figure_pairs\\figure-07.png",
+    "sha256": "413dbe01fff5d41a7292c11dfe2fca62b01364fc9d2e58c61b7252ed8f1844a3"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-08.png",
+    "destination": "review\\figure_pairs\\figure-08.png",
+    "sha256": "72293ac4e81c9dca300a3cfedfaab611ada457ec75b17d7604defd56d6fc6294"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-09.png",
+    "destination": "review\\figure_pairs\\figure-09.png",
+    "sha256": "4766c5430d7b0cf806aa0822f4f88191882f4adb92069ed3267dd3873ea3fb48"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-10.png",
+    "destination": "review\\figure_pairs\\figure-10.png",
+    "sha256": "e8237505f13aab83ebfd9473dd83b17786232921be261d8dbedd92d6f823e317"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-11.png",
+    "destination": "review\\figure_pairs\\figure-11.png",
+    "sha256": "70db290a54ae539ed3d0e75cb5d2ebf658c81f9472d4db77784af817dbd6d7d9"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-12.png",
+    "destination": "review\\figure_pairs\\figure-12.png",
+    "sha256": "6f964aace3800410d23b7df6a9c0ae80fa3247de73b09ff7f1dfacf6e7bbd236"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-13.png",
+    "destination": "review\\figure_pairs\\figure-13.png",
+    "sha256": "d07a1cd4e529fa748416bcf6aabb4690f45bfb5f39a99c1942c7bbff36ce24cc"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-14.png",
+    "destination": "review\\figure_pairs\\figure-14.png",
+    "sha256": "4d0ea923b85aa24a2faf9bcbf90cac38081b069c14d6f7166338a4c8baf70dd2"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-15.png",
+    "destination": "review\\figure_pairs\\figure-15.png",
+    "sha256": "2a096bc5352ff8fb023d83fa8625493da74f763c0c645c61297f91b9b3e04e95"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-16.png",
+    "destination": "review\\figure_pairs\\figure-16.png",
+    "sha256": "3801e3b1e9e3ed0b7647633014a5619f2dd34f655aaa2084a986a3bf6cffeca5"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-17.png",
+    "destination": "review\\figure_pairs\\figure-17.png",
+    "sha256": "71356dbbaa46f23816ea7d1df6fb9f9d13137806ca0ebfb3709574bbe1da76af"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-18.png",
+    "destination": "review\\figure_pairs\\figure-18.png",
+    "sha256": "1acb635fc0d05feefe7bb1f1f9466b925101ffb890b68766e60f996c90a47cab"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-19.png",
+    "destination": "review\\figure_pairs\\figure-19.png",
+    "sha256": "6d5147b4403aab74f58f253495403b20f1ab610a48b0daecd4e0a05cf7fb7a30"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-20.png",
+    "destination": "review\\figure_pairs\\figure-20.png",
+    "sha256": "61a1f45447329410d072f705d885ecd895cdae8afac756928db22614bfd6690d"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-21.png",
+    "destination": "review\\figure_pairs\\figure-21.png",
+    "sha256": "22fdf1496bdf1d0f83a9fc4615f9a757c3f692795a299cba88655a0c895a74c1"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-22.png",
+    "destination": "review\\figure_pairs\\figure-22.png",
+    "sha256": "e7653e41873a28efafe4e166c435590d0b5c1688304c4631798671ad5d12d212"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-23.png",
+    "destination": "review\\figure_pairs\\figure-23.png",
+    "sha256": "4852025bf50190e7b7c5ccfa599729dc421d345969a088ebf83e0ba967c90342"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-24.png",
+    "destination": "review\\figure_pairs\\figure-24.png",
+    "sha256": "3d836689c0fe089f60e9ae87e38d591ff885a72a6cbcec02c03cd1901474ff49"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-25.png",
+    "destination": "review\\figure_pairs\\figure-25.png",
+    "sha256": "3d9a2702d2c4d307a211a729183ab4196faa0c715599a234bfa32f715d88c96c"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-26.png",
+    "destination": "review\\figure_pairs\\figure-26.png",
+    "sha256": "f734cfa34f144077a8e4a711696c4af611214504fcc9f420d20f6ea47c533028"
+  },
+  {
+    "source": "restrained_revision_3\\review\\figure_pairs\\figure-27.png",
+    "destination": "review\\figure_pairs\\figure-27.png",
+    "sha256": "e2b9526d5a42c2487706e7f1df1f1f8b470cb56897e9b144ffc7a8dcea4cdfe4"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-1.png",
+    "destination": "review\\pages\\page-1.png",
+    "sha256": "5b40c2d5c1a3609d79afc1bd1cd93b3cfdefd8e308c43a712efdfb4c95b06e40"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-10.png",
+    "destination": "review\\pages\\page-10.png",
+    "sha256": "5b91f03ae14f761f479b3c4537219605f920ed51ee37b937b2375114085e881c"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-11.png",
+    "destination": "review\\pages\\page-11.png",
+    "sha256": "c0175239228164badab8590992ddf1a0ac07f4426f5b47cb3445c86c0606f276"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-12.png",
+    "destination": "review\\pages\\page-12.png",
+    "sha256": "7c537389e386618abbf3d321769669a0eebce5a57ce49417d4a7ba78bff29026"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-13.png",
+    "destination": "review\\pages\\page-13.png",
+    "sha256": "e207c3229cab503e1b12f26fa08afbe4e2dc60266baeb835146491500b9d00a6"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-14.png",
+    "destination": "review\\pages\\page-14.png",
+    "sha256": "fb06269ecd296ab8d713873c18cc5f0290fff6aafe5256841cd73fd732ee3236"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-15.png",
+    "destination": "review\\pages\\page-15.png",
+    "sha256": "a42845325ea6fe091fd4912bc734d6550deb259339fb5a81b9aeea0a2d72c0a7"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-16.png",
+    "destination": "review\\pages\\page-16.png",
+    "sha256": "b0772d5b01a7405041d920e433a6b447c62984398cc720cde16c314b6e7a2127"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-17.png",
+    "destination": "review\\pages\\page-17.png",
+    "sha256": "e097669c4e487c69bb18c759f20d393eaeb503931a21ef3ea3145a34e6c64b5c"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-18.png",
+    "destination": "review\\pages\\page-18.png",
+    "sha256": "7fc6e52fa1f4dfb37bd357ace28468eba5b222e8fc048fa238e2f88984cb440d"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-19.png",
+    "destination": "review\\pages\\page-19.png",
+    "sha256": "ae0d5301026ac9ce52c3ea9300f2886d7dee2bf5100f26800d1a2f0360a1896e"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-2.png",
+    "destination": "review\\pages\\page-2.png",
+    "sha256": "7c8e0541f72231bcb5353d3643e9ed4cd80ddb0d8cdea07764ff02c57d4b37e0"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-20.png",
+    "destination": "review\\pages\\page-20.png",
+    "sha256": "ec398bf4e926e7a55da4b712fd45c1eeaadcd23f35a7319e949d8f260be7e178"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-21.png",
+    "destination": "review\\pages\\page-21.png",
+    "sha256": "f485b96bff760210a3bc75bcd07e06470950fccf645ac647e37ef1f67bbcdb93"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-22.png",
+    "destination": "review\\pages\\page-22.png",
+    "sha256": "2debb17d16ff059dbe264a82093d6c4dd113fa4674ad36de4883b4b2abfcf413"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-23.png",
+    "destination": "review\\pages\\page-23.png",
+    "sha256": "1a65bc473d017dd4cefe0a0550efabd2e5582bc77736f48ecee762a8bfd3019c"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-24.png",
+    "destination": "review\\pages\\page-24.png",
+    "sha256": "96b18622903d3d15e68c3810071f5134c9958b428b776040b805835b291727a1"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-25.png",
+    "destination": "review\\pages\\page-25.png",
+    "sha256": "ad243c1d72588786c4de3f066ac1bf302bdaac2b72fe16db5ec62df3e8b8fbd5"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-26.png",
+    "destination": "review\\pages\\page-26.png",
+    "sha256": "dd8f889f22d0029cf56f17879f1740b1a781b47dcb48b32e7ba969436e6312c8"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-27.png",
+    "destination": "review\\pages\\page-27.png",
+    "sha256": "444164d38de90fefc6fb1fe692ccda018152147e0ea37c8b8e0a86720140bd27"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-28.png",
+    "destination": "review\\pages\\page-28.png",
+    "sha256": "b563c2d2202c57425ede05b3ad3f391e3e0e440213abfc73979d3613a70aa1de"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-29.png",
+    "destination": "review\\pages\\page-29.png",
+    "sha256": "038bf156543cd624bc03b07fa6d1ca10ec4a2fa07a285b62cce0946860a60a1a"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-3.png",
+    "destination": "review\\pages\\page-3.png",
+    "sha256": "65a01eb987f3ddd4dfb008cd0e4c4ba76d5c845c2a3f0dde840a1438f0b9f755"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-30.png",
+    "destination": "review\\pages\\page-30.png",
+    "sha256": "1a74aa7264556c0900cf7f744eee73b9457422249502d5762aab43b3c029b743"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-4.png",
+    "destination": "review\\pages\\page-4.png",
+    "sha256": "c585831b30f7c9e335af37655295d3006a45322070d4bd7dbf1e57db8671af33"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-5.png",
+    "destination": "review\\pages\\page-5.png",
+    "sha256": "cc8b5a2060cf88c354d44ae115bcfea7ba3c1fdeac4bc119765c3070a4f16cfe"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-6.png",
+    "destination": "review\\pages\\page-6.png",
+    "sha256": "c9bf906187fcd8e27b68038c68e65fb0b279cab97bef0c3d6a93a3f4d49e97ed"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-7.png",
+    "destination": "review\\pages\\page-7.png",
+    "sha256": "d3ae55a17cac826cf2254ba12fe790561e1c4debc95c9ca77848973b52cc81e0"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-8.png",
+    "destination": "review\\pages\\page-8.png",
+    "sha256": "888ffc15b469863e3eba9f5c06861d58ac5a8dc6cc0a7b2f38a26f6f1a660321"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\page-9.png",
+    "destination": "review\\pages\\page-9.png",
+    "sha256": "06b9f7851cd71ce415657fd25d9181aae2645472e53b417f313bbb58db84e892"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\pair-01.png",
+    "destination": "review\\pages\\pair-01.png",
+    "sha256": "84459d50f06f8663826faab92edcc0b33a57b73c3bb24b3bfb88566636ce8d4f"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\pair-03.png",
+    "destination": "review\\pages\\pair-03.png",
+    "sha256": "3067389e593928d0fba291151fdd0ef219657452b321de519cc01c5099ec1249"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\pair-05.png",
+    "destination": "review\\pages\\pair-05.png",
+    "sha256": "fa65bfc7bf26522a125cd1491fa1d009fba32062326b30ce0b8036e531e93db8"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\pair-07.png",
+    "destination": "review\\pages\\pair-07.png",
+    "sha256": "70fc3641f4b0540e80018d468edcf9ac38705865308e7ef15173a0e62d5ecb97"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\pair-09.png",
+    "destination": "review\\pages\\pair-09.png",
+    "sha256": "1630d79af5da5345ae53bd1480a08d93b5db802d13d826f50ca1c1c7bdcf7612"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\pair-11.png",
+    "destination": "review\\pages\\pair-11.png",
+    "sha256": "ad0128ea50df3e9185e8674f3d85113f8c51af862e5df5b22ea06882bd0cbd85"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\pair-13.png",
+    "destination": "review\\pages\\pair-13.png",
+    "sha256": "252d97e8deed47e151e4bc2d7a43ce56d753bb9fd0d6ed8c52f42816f2b284b4"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\pair-15.png",
+    "destination": "review\\pages\\pair-15.png",
+    "sha256": "9a2d85668238ae241a5c9bdea49065ebeb2ba14387bb58134e30f3b4ea6cf851"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\pair-17.png",
+    "destination": "review\\pages\\pair-17.png",
+    "sha256": "e5d03d9e23ec0813aa150f03b7fc73b1403825566a23db254d0f1d5d4f2acd32"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\pair-19.png",
+    "destination": "review\\pages\\pair-19.png",
+    "sha256": "67df69912ca05b75619d3c5ed885758b27962b1c4242d54bf9064a265b1bf542"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\pair-21.png",
+    "destination": "review\\pages\\pair-21.png",
+    "sha256": "83d5562c549d2062642e7046c8c17c321db3e0d40dd76f71302ea0434d378219"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\pair-23.png",
+    "destination": "review\\pages\\pair-23.png",
+    "sha256": "51fc15be674a8c0e9487501ee4f2e5686320846c6fb07cb9e873f4d5c80aaa83"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\pair-25.png",
+    "destination": "review\\pages\\pair-25.png",
+    "sha256": "b8fce022285b6ef05be2ad82c2b3e793c588f9a6895115d80a85f4d85854a385"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\pair-27.png",
+    "destination": "review\\pages\\pair-27.png",
+    "sha256": "6935f5e06a7b85f8a5288842dcd5f4cfa139d31e81e7428e5859dcaff953bd5e"
+  },
+  {
+    "source": "restrained_revision_3\\review\\v3_pages\\pair-29.png",
+    "destination": "review\\pages\\pair-29.png",
+    "sha256": "d74933517d274827de14ddbd6336e6b0173e0deb70f3fd739cc6734bd844a6af"
+  },
+  {
+    "source": "restrained_revision_3\\FIGURE_PLAN.json",
+    "destination": "FIGURE_PLAN.json",
+    "sha256": "8563d9c6144157ed0fd22a0b07c3bcccef337c65f4d21001171ea1901a4d1b01"
+  },
+  {
+    "source": "restrained_revision_3\\FIGURE_REVIEW_REPORT.md",
+    "destination": "FIGURE_REVIEW_REPORT.md",
+    "sha256": "06b8c759e187297b29c54e33e501120d2c1e81b43f780a210b8271c1c3cd0e09"
+  },
+  {
+    "source": "restrained_revision_3\\PAPER_PLAN.md",
+    "destination": "PAPER_PLAN.md",
+    "sha256": "162ed2027ca88f4a4a6f884895b0eddca4977d31db645beb512fa1184ed7bf9c"
+  },
+  {
+    "source": "restrained_revision_3\\paper\\补齐约束_restrained_v3.docx",
+    "destination": "paper\\补齐约束.docx",
+    "sha256": "317914fb915598ae84bbc95a5601c907b2b4ec9ad7c78d72e89823d898bd2d70"
+  },
+  {
+    "source": "restrained_revision_3\\paper\\补齐约束_restrained_v3.pdf",
+    "destination": "paper\\补齐约束.pdf",
+    "sha256": "1626f3076ed272ede6956aed94e62588b0fd9278e86b18f7ef5b8bba383215bd"
+  },
+  {
+    "source": "code\\constraint_audit.py",
+    "destination": "code\\constraint_audit.py",
+    "sha256": "ba2f73a7db1acd7ed6567a6f86d22a4c5e3452fc918a74d2a4ce0127775b45c2"
+  },
+  {
+    "source": "code\\dispatch.py",
+    "destination": "code\\dispatch.py",
+    "sha256": "038c4892e168250169445099f7c25dc42f62fed9daa0a709d8323caddcb5a4db"
+  },
+  {
+    "source": "code\\export.py",
+    "destination": "code\\export.py",
+    "sha256": "60f6300fc9a58859b4c2a1d79f38e780b539c8769baa1148346530a8f57180ca"
+  },
+  {
+    "source": "code\\forecast.py",
+    "destination": "code\\forecast.py",
+    "sha256": "0ac73590cfe056dfce27157bb8486a51acb7e39473efdbd7832179f30b6edc49"
+  },
+  {
+    "source": "code\\io_layer.py",
+    "destination": "code\\io_layer.py",
+    "sha256": "982cbbf5405dd5fc8f0747c0eee2039657380eeae867569c8a45c33030806edc"
+  },
+  {
+    "source": "code\\lp_kernel.py",
+    "destination": "code\\lp_kernel.py",
+    "sha256": "87456374cad357b5e5b97269704147052a7d4b968f7af7ba0417e431d17a31d9"
+  },
+  {
+    "source": "code\\main.py",
+    "destination": "code\\main.py",
+    "sha256": "7fe0fdcbf389a889c13e04cee1d06eb9c5848c236e67a3341ff4aeb7a0d01af3"
+  },
+  {
+    "source": "code\\params.py",
+    "destination": "code\\params.py",
+    "sha256": "9548131b4042e170f531cc77f0007572bea001f27181f4c882a3e301dca6d28f"
+  },
+  {
+    "source": "code\\problem1.py",
+    "destination": "code\\problem1.py",
+    "sha256": "dcf789550d4d833c73516725508df4d7bcadd7b5a667d40e339c4801ec5216d9"
+  },
+  {
+    "source": "code\\problem2.py",
+    "destination": "code\\problem2.py",
+    "sha256": "e7853ff1197b2a766fceadfb8d54c35191e585fc06474d63fe3f6f67ab409c31"
+  },
+  {
+    "source": "code\\problem3.py",
+    "destination": "code\\problem3.py",
+    "sha256": "a419f9910b8844d972773e5c827696c1ae65a2d5307b71da92022d12b6bc30d7"
+  },
+  {
+    "source": "code\\problem4.py",
+    "destination": "code\\problem4.py",
+    "sha256": "a4d0e349e8b8ae6ce1de28f818364c02643aa845040c8d0fdfc5e21a430ce1eb"
+  },
+  {
+    "source": "code\\requirements.txt",
+    "destination": "code\\requirements.txt",
+    "sha256": "e60b65774ff977f283b9923d2cf80b384c45e92d88e3ec7d56bcd913e98a420d"
+  },
+  {
+    "source": "code\\sensitivity_analysis.py",
+    "destination": "code\\sensitivity_analysis.py",
+    "sha256": "b333d8cff355a97101402bbd4e4e8d839bebbd3152af673ee7b893ab934d5f76"
+  },
+  {
+    "source": "code\\settle.py",
+    "destination": "code\\settle.py",
+    "sha256": "38565713241f628b947758186bd95f4b70e965a2f5675bcf20bc3eb93a8aa104"
+  },
+  {
+    "source": "code\\statistical_uncertainty.py",
+    "destination": "code\\statistical_uncertainty.py",
+    "sha256": "dbbfc09ec97bd77e25e0551dfae9e909618d183b7aa0a58db3ae02438cbbb545"
+  },
+  {
+    "source": "code\\Q1\\reviews\\q1_python_review.md",
+    "destination": "code\\Q1\\reviews\\q1_python_review.md",
+    "sha256": "51043d26c4b4f1f2b4400eea0152ae1e3540614adbd1a570f5b411fd666a6737"
+  },
+  {
+    "source": "code\\Q2\\reviews\\q2_python_review.md",
+    "destination": "code\\Q2\\reviews\\q2_python_review.md",
+    "sha256": "4b2006d42f40cbcf2cfdeb28aa299443058b740e1eea43427ee1a8afc180870e"
+  },
+  {
+    "source": "code\\Q3\\reviews\\q3_python_review.md",
+    "destination": "code\\Q3\\reviews\\q3_python_review.md",
+    "sha256": "f25453d16bb6120ce78aafb61afaedd0f1b226f6881032981ce8b2be47a3059f"
+  },
+  {
+    "source": "code\\Q4\\reviews\\q4_python_review.md",
+    "destination": "code\\Q4\\reviews\\q4_python_review.md",
+    "sha256": "785abb11fb82edb1991ac5dd2b87be104c853817129c1d506ffa26bcbbc92277"
+  },
+  {
+    "source": "results\\daily_paired_cost_differences.csv",
+    "destination": "results\\daily_paired_cost_differences.csv",
+    "sha256": "6e7036994bc72b1493908f3819a5e88948e755847e385361a36c1825f87337cd"
+  },
+  {
+    "source": "results\\extreme_day_performance.csv",
+    "destination": "results\\extreme_day_performance.csv",
+    "sha256": "81d69ac287685c18b8837b559220a46a5eff48a7ab2180ba92afd20073436314"
+  },
+  {
+    "source": "results\\q2_daily_costs.csv",
+    "destination": "results\\q2_daily_costs.csv",
+    "sha256": "924e71c7deee9ceb9420e56d815d23b677c391efde5a31c5e5d810208d43adc4"
+  },
+  {
+    "source": "results\\q3_daily_costs.csv",
+    "destination": "results\\q3_daily_costs.csv",
+    "sha256": "f7a2e15b8c44bb8f35e6aa6ceae86bf1c214341638ae5df838ce319c029fcc14"
+  },
+  {
+    "source": "results\\seasonal_performance.csv",
+    "destination": "results\\seasonal_performance.csv",
+    "sha256": "5df2d0ab80ceb944a30c3f55f0e795c203f9a1c9cf7fb0e7667be08a411ff8db"
+  },
+  {
+    "source": "results\\statistical_uncertainty.json",
+    "destination": "results\\statistical_uncertainty.json",
+    "sha256": "72aef09cd8548116f4c4aa94be26d52aed9d57bdb7d454e35761982903315dac"
+  },
+  {
+    "source": "user_data\\C题.pdf",
+    "destination": "user_data\\C题.pdf",
+    "sha256": "2c098f6ae9dd47ae965aebdec3b9facf3de6c173f999783c1012c08fc5fb9d2d"
+  },
+  {
+    "source": "user_data\\C题_extracted.txt",
+    "destination": "user_data\\C题_extracted.txt",
+    "sha256": "8bf25524ec27c274fbadda25a427b6bf2e5e61ebf64479d09d2ce2471ea02c28"
+  },
+  {
+    "source": "user_data\\format2026.doc",
+    "destination": "user_data\\format2026.doc",
+    "sha256": "d77de49534649b46ca195d32bd9c56a1fbe06dc96fdcf3e1199e6dd7d9831f4a"
+  },
+  {
+    "source": "user_data\\format2026_extracted.txt",
+    "destination": "user_data\\format2026_extracted.txt",
+    "sha256": "2183332ce65ab80e996a5ed4c512fe92d4bc97b088d3eb1913028c3800aec2de"
+  },
+  {
+    "source": "user_data\\result1.xlsx",
+    "destination": "user_data\\result1.xlsx",
+    "sha256": "8ae99e78c6a3245f6687323edcae111ab4ea962eaf1776349f194a7534030fe4"
+  },
+  {
+    "source": "user_data\\result2.xlsx",
+    "destination": "user_data\\result2.xlsx",
+    "sha256": "f638daec15cf95f898ab48e8520263fa125ea821ed5254486054d46c55694b7e"
+  },
+  {
+    "source": "user_data\\result3.xlsx",
+    "destination": "user_data\\result3.xlsx",
+    "sha256": "bec06ea6da461c1c8e913b41f95df2cb0275fb6f23489ea009ed42b3d1e41490"
+  },
+  {
+    "source": "user_data\\result4-2.xlsx",
+    "destination": "user_data\\result4-2.xlsx",
+    "sha256": "6a0c9cdd93d7261450dd77dda72e7dc8e905bf6ee4615f888db5f5fc064aff21"
+  },
+  {
+    "source": "user_data\\result4-3.xlsx",
+    "destination": "user_data\\result4-3.xlsx",
+    "sha256": "bf15fc38e68cb233b594d49c741fa8818166e36e86f299b76c2495d6d403494f"
+  },
+  {
+    "source": "user_data\\附件1.xlsx",
+    "destination": "user_data\\附件1.xlsx",
+    "sha256": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377"
+  },
+  {
+    "source": "user_data\\附件2.xlsx",
+    "destination": "user_data\\附件2.xlsx",
+    "sha256": "2e95fd446bfafa0d8c59577b5c2e2ea8b3f1def20dde54a3062556f4da9b4c72"
+  },
+  {
+    "source": "user_data\\附件3.xlsx",
+    "destination": "user_data\\附件3.xlsx",
+    "sha256": "8a61b06c52bd0d639a1cc37c61a7d9f5b75edcbca718f64c1bd3498ec9f9d843"
+  },
+  {
+    "source": "user_data\\附件4.xlsx",
+    "destination": "user_data\\附件4.xlsx",
+    "sha256": "20e9c93aeab5e8e21ae4dd15587f9e190f7408692504c1319598461cd654fe71"
+  },
+  {
+    "source": "restrained_revision_3\\_utils\\plot_utils.py",
+    "destination": "_utils\\plot_utils.py",
+    "sha256": "a96b42b28a60843992695a379e03e9982b0d5acafd9484c2694f1c56e20ce465"
+  },
+  {
+    "source": "restrained_revision_3\\_utils\\audit_final_figure_size.py",
+    "destination": "_utils\\audit_final_figure_size.py",
+    "sha256": "b640d6ef419c363d584e5cda00fa74ab8438690a8e362a2d907591f73c3584f7"
+  },
+  {
+    "source": "restrained_revision_3\\_utils\\stats_utils.py",
+    "destination": "_utils\\stats_utils.py",
+    "sha256": "1f7fd87be546b2d0c51ee9ca7842c6582b3a32f6b12ec67323df05ab9e42a20b"
+  },
+  {
+    "source": "restrained_revision_3\\tools\\audit_v3.py",
+    "destination": "provenance\\migration_tools\\audit_v3.py",
+    "sha256": "4e9701faa98192ef6c6d774bf3f9bcbe3e76cfa3ac98418392b686d24b42331a"
+  },
+  {
+    "source": "restrained_revision_3\\tools\\build_restrained_docx.py",
+    "destination": "provenance\\migration_tools\\build_restrained_docx.py",
+    "sha256": "617c320504e112ce3c44c81d00f7c88f32bf64632dace3cae4b39fc844149102"
+  },
+  {
+    "source": "restrained_revision_3\\tools\\build_v3.py",
+    "destination": "provenance\\migration_tools\\build_v3.py",
+    "sha256": "bb2aed8b32f8ef68572cc747558a4c5f15bc3a31581cbd4e46aba7046a7c7484"
+  },
+  {
+    "source": "restrained_revision_3\\tools\\export_word.ps1",
+    "destination": "provenance\\migration_tools\\export_word.ps1",
+    "sha256": "5301935dff95b67e541daad3040a6c797bcb7d8d6fe484ee9c045ba79863862d"
+  },
+  {
+    "source": "restrained_revision_3\\tools\\math_corrections.py",
+    "destination": "provenance\\migration_tools\\math_corrections.py",
+    "sha256": "13687776eb075b99c1fdb99f1a70d5e2b41c25be9ead1e03e799e8092139e22d"
+  },
+  {
+    "source": "restrained_revision_3\\tools\\render_html.cjs",
+    "destination": "provenance\\migration_tools\\render_html.cjs",
+    "sha256": "44fa70440462e32866e6f3e4e8afda833961146d688bf0c609c928f85ff137c9"
+  },
+  {
+    "source": "restrained_revision_3\\tools\\render_with_word_pdf.py",
+    "destination": "provenance\\migration_tools\\render_with_word_pdf.py",
+    "sha256": "96c77bd1c12bde63cb9aec26618ed8edd2a5719e5d778a3326c837466d56bab1"
+  },
+  {
+    "source": "restrained_revision_3\\tools\\write_review_v3.py",
+    "destination": "provenance\\migration_tools\\write_review_v3.py",
+    "sha256": "4488d68ff96846acf3646983f8bbeaf4d15155dc45c52f76d0ae8ef5adf5ff99"
+  },
+  {
+    "source": "PROBLEM_ANALYSIS.md",
+    "destination": "modeling\\PROBLEM_ANALYSIS.md",
+    "sha256": "581501111719ae6784a6fac7ca1403d4e28d58b483ba031ddf6848133251cbf8"
+  },
+  {
+    "source": "PROBLEM_FACTS.json",
+    "destination": "modeling\\PROBLEM_FACTS.json",
+    "sha256": "e06de2dfeee0e064955e3e8622b088ccb72a7d1ea3ab3d7e2718479020a86255"
+  },
+  {
+    "source": "MODELING_REPORT.md",
+    "destination": "modeling\\MODELING_REPORT.md",
+    "sha256": "bbcbc1c47475f6c9ba50a1cc559de2e3b161e2b684e39d18bf6d6fdecf243e06"
+  },
+  {
+    "source": "RESULTS.md",
+    "destination": "modeling\\RESULTS.md",
+    "sha256": "316a50997719d2348739278a07cf8b0cabdf1bcf922342cafe51c6139068a56e"
+  },
+  {
+    "source": "LOGIC_CONTRACT.json",
+    "destination": "modeling\\LOGIC_CONTRACT.json",
+    "sha256": "1bdd45361e385f5ff23e0dbe98fbbfb0649afff40a0cb3fb343a89d27360362b"
+  },
+  {
+    "source": "DATA_FACTS.json",
+    "destination": "modeling\\DATA_FACTS.json",
+    "sha256": "cbf04c8efbdab35d7b10b243e613ceb47357c2ad7fc864c96cd13feae6cbe705"
+  },
+  {
+    "source": "DATA_PROFILE.json",
+    "destination": "modeling\\DATA_PROFILE.json",
+    "sha256": "70421a7720110188b95ab85ad012b9454833e3cc3430e0078b3faf11e33f3c0b"
+  },
+  {
+    "source": "paper\\补齐约束.docx",
+    "destination": "original\\补齐约束.docx",
+    "sha256": "b0033e85096e39c205364dd4d4193be29b58c645654bd5e93a2ae57496aca950"
+  }
+]

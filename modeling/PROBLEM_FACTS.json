@@ -1,0 +1,328 @@
+{
+  "_meta": {
+    "problem_id": "2026-CUMCM-C",
+    "title": "微网与外部电网电力调控策略",
+    "source_pages": [1, 2, 3],
+    "source_files": [
+      {
+        "path": "user_data/C题_extracted.txt",
+        "sha256": "8bf25524ec27c274fbadda25a427b6bf2e5e61ebf64479d09d2ce2471ea02c28"
+      }
+    ],
+    "verification_notes": "本文件所有数值逐条抄自 user_data/C题_extracted.txt（Vision OCR 原文），每条带 raw_quote。派生量（144 个 10 分钟时段、334 个交付日、365 个数据日）不登记于本文件，因其不是题面直接给定值，而由附件数据结构算出，权威源为 DATA_PROFILE.json。效率以百分数 90 登记（题面原文为「90%」），下游用时换算为 0.9。"
+  },
+  "storage": [
+    {
+      "id": "E_cap_max",
+      "name": "储能设备最大容量",
+      "value": 12000,
+      "unit": "kWh",
+      "raw_quote": "储能设备的最大容量为 12000 kWh",
+      "source": "附录1, P2",
+      "must_use_verbatim": true
+    },
+    {
+      "id": "P_ch_dis_max",
+      "name": "最大充放电功率",
+      "value": 5000,
+      "unit": "kW",
+      "raw_quote": "最大充放电功率为 5000 kW",
+      "source": "附录1, P2",
+      "must_use_verbatim": true,
+      "note": "功率上限，需换算为每 10 分钟时段的电量上限"
+    },
+    {
+      "id": "E_init",
+      "name": "2025-01-01 00:00 初始储电量",
+      "value": 6000,
+      "unit": "kWh",
+      "raw_quote": "假设 2025 年 1 月 1 日 0:00 的电量为 6000 kWh",
+      "source": "附录1, P2",
+      "must_use_verbatim": true
+    },
+    {
+      "id": "E_min",
+      "name": "储电量下限",
+      "value": 1200,
+      "unit": "kWh",
+      "raw_quote": "储能设备的电量必须保持在 1200–10800 kWh 之间",
+      "source": "附录1, P2",
+      "must_use_verbatim": true
+    },
+    {
+      "id": "E_max",
+      "name": "储电量上限",
+      "value": 10800,
+      "unit": "kWh",
+      "raw_quote": "储能设备的电量必须保持在 1200–10800 kWh 之间",
+      "source": "附录1, P2",
+      "must_use_verbatim": true
+    },
+    {
+      "id": "eta_pct",
+      "name": "储能设备充放电效率（百分数）",
+      "value": 90,
+      "unit": "%",
+      "raw_quote": "储能设备的充放电效率为 90%",
+      "source": "附录1, P2",
+      "must_use_verbatim": true,
+      "note": "题面未区分单向/往返效率，属关键歧义；见 PROBLEM_ANALYSIS.md 假设敏感性预检"
+    }
+  ],
+  "price_multipliers": [
+    {
+      "id": "k_emergency",
+      "name": "紧急购电电价倍数",
+      "value": 5,
+      "unit": "倍",
+      "raw_quote": "需向外网紧急购电，其电价是交易时刻电价的 5 倍",
+      "source": "问题2, P1",
+      "must_use_verbatim": true
+    },
+    {
+      "id": "k_shortfall_pct",
+      "name": "计划高于调整的违约电价（占交易时刻电价百分比）",
+      "value": 50,
+      "unit": "%",
+      "raw_quote": "计划购电量高于调整购电量的部分，违约电价是交易时刻电价的 50%",
+      "source": "问题3, P2",
+      "must_use_verbatim": true
+    },
+    {
+      "id": "k_excess",
+      "name": "调整高于计划的超出部分电价倍数",
+      "value": 1.5,
+      "unit": "倍",
+      "raw_quote": "调整购电量高于计划购电量的部分，超出部分的电价是交易时刻电价的 1.5 倍",
+      "source": "问题3, P2",
+      "must_use_verbatim": true
+    }
+  ],
+  "temporal": [
+    {
+      "id": "forecast_horizon_h",
+      "name": "光伏功率预报时长",
+      "value": 24,
+      "unit": "小时",
+      "raw_quote": "可获得未来 24 小时整点的光伏发电功率预报",
+      "source": "问题3, P2",
+      "must_use_verbatim": true
+    },
+    {
+      "id": "n_forecast_times",
+      "name": "每天发布预报的时刻数",
+      "value": 4,
+      "unit": "个",
+      "raw_quote": "在每天 0:00、6:00、12:00 和 18:00 可获得未来 24 小时整点的光伏发电功率预报",
+      "source": "问题3, P2",
+      "must_use_verbatim": true
+    },
+    {
+      "id": "forecast_hour_0",
+      "name": "预报发布时刻（第一次，亦为计划制定时刻）",
+      "value": 0,
+      "unit": "时",
+      "raw_quote": "请在每天 0:00 制定微网当天的计划购电策略",
+      "source": "问题1/问题2/问题3, P1-P2",
+      "must_use_verbatim": true
+    },
+    {
+      "id": "forecast_hour_1",
+      "name": "预报发布时刻（第二次）",
+      "value": 6,
+      "unit": "时",
+      "raw_quote": "在每天 0:00、6:00、12:00 和 18:00 可获得未来 24 小时整点的光伏发电功率预报",
+      "source": "问题3, P2",
+      "must_use_verbatim": true
+    },
+    {
+      "id": "forecast_hour_2",
+      "name": "预报发布时刻（第三次）",
+      "value": 12,
+      "unit": "时",
+      "raw_quote": "在每天 0:00、6:00、12:00 和 18:00 可获得未来 24 小时整点的光伏发电功率预报",
+      "source": "问题3, P2",
+      "must_use_verbatim": true
+    },
+    {
+      "id": "forecast_hour_3",
+      "name": "预报发布时刻（第四次）",
+      "value": 18,
+      "unit": "时",
+      "raw_quote": "在每天 0:00、6:00、12:00 和 18:00 可获得未来 24 小时整点的光伏发电功率预报",
+      "source": "问题3, P2",
+      "must_use_verbatim": true
+    },
+    {
+      "id": "dt_minutes",
+      "name": "决策时段长度（结果文件要求的分辨率）",
+      "value": 10,
+      "unit": "分钟",
+      "raw_quote": "在\"计划购电量\"工作表中保存间隔 10 分钟的购电量(单位:kWh)",
+      "source": "附件5说明, P3",
+      "must_use_verbatim": true
+    },
+    {
+      "id": "soc_report_bucket_h",
+      "name": "充放电量汇总时段长度",
+      "value": 4,
+      "unit": "小时",
+      "raw_quote": "0:00−4:00 | 4:00−8:00 | 8:00−12:00 | 12:00−16:00 | 16:00−20:00 | 20:00−24:00",
+      "source": "表2, P1",
+      "must_use_verbatim": true
+    },
+    {
+      "id": "data_year",
+      "name": "数据年份",
+      "value": 2025,
+      "unit": "年",
+      "raw_quote": "提供 2025.1.1–12.31 每天不同时间的小区负载",
+      "source": "附录2, P2",
+      "must_use_verbatim": true
+    }
+  ],
+  "report_spec": {
+    "table1_intervals": [
+      "10:00-10:10",
+      "12:00-12:10",
+      "14:00-14:10",
+      "16:00-16:10",
+      "18:00-18:10",
+      "20:00-20:10"
+    ],
+    "table1_raw_quote": "表 1 微网在指定时间段的购电量及全天的购电量和购电费；10:00-10:10 / 12:00-12:10 / 14:00-14:10 / 16:00-16:10 / 18:00-18:10 / 20:00-20:10；全天购电量；全天购电费",
+    "table2_buckets": [
+      "0:00-4:00",
+      "4:00-8:00",
+      "8:00-12:00",
+      "12:00-16:00",
+      "16:00-20:00",
+      "20:00-24:00"
+    ],
+    "table3_dates": [
+      "2025-03-20",
+      "2025-06-21",
+      "2025-09-23",
+      "2025-12-21"
+    ],
+    "table3_raw_quote": "表 3 微网在指定日期的紧急购电量：2025.3.20 | 2025.6.21 | 2025.9.23 | 2025.12.21",
+    "table3_note": "四个日期为春分/夏至/秋分/冬至前后，覆盖光伏出力的四季典型情形",
+    "delivery_date_range_raw_quote": "在\"计划购电量\"工作表中保存 2025.2.1‑12.31 每天 0:00 制定的间隔 10 分钟的计划购电量(单位:kWh)",
+    "delivery_note": "result2/result3/result4-* 的交付区间为 2025.2.1–12.31；2025.1 月数据仅作历史训练窗，不交付。此区间共 334 天，权威计数见 DATA_PROFILE.json"
+  },
+  "rules": [
+    {
+      "id": "R1",
+      "natural_language": "微网提供的电能不可低于小区负载（问题1为硬约束，问题2起不足部分转为紧急购电）",
+      "raw_quote": "要求微网提供的电能不可低于小区负载",
+      "source": "问题1, P1",
+      "machine_check": "for all t: buy[t] + pv[t] + discharge_ac[t] - charge_ac[t] + emergency[t] >= load[t] - 1e-6"
+    },
+    {
+      "id": "R2",
+      "natural_language": "储能设备在 0:00 和 24:00 的储电量相同（问题1明文要求）",
+      "raw_quote": "储能设备在 0:00 和 24:00 的储电量相同",
+      "source": "问题1, P1",
+      "machine_check": "abs(E[144] - E[0]) <= 1e-6"
+    },
+    {
+      "id": "R3",
+      "natural_language": "储电量全程必须保持在下限与上限之间，避免过度充放电",
+      "raw_quote": "为了避免过度充电或放电，在后继的充放电过程中，储能设备的电量必须保持在 1200–10800 kWh 之间",
+      "source": "附录1, P2",
+      "machine_check": "for all t: 1200 - 1e-6 <= E[t] <= 10800 + 1e-6"
+    },
+    {
+      "id": "R4",
+      "natural_language": "充放电功率不得超过最大充放电功率",
+      "raw_quote": "最大充放电功率为 5000 kW",
+      "source": "附录1, P2",
+      "machine_check": "for all t: 0 <= charge_kwh[t] <= 5000/6 + 1e-6 and 0 <= discharge_kwh[t] <= 5000/6 + 1e-6"
+    },
+    {
+      "id": "R5",
+      "natural_language": "计划必须在每天 0:00 制定，只能使用该时刻及之前可得的信息（不可使用当日实际负载与实际光伏）",
+      "raw_quote": "请在每天 0:00 制定微网当天的计划购电策略",
+      "source": "问题2, P1",
+      "machine_check": "plan_for_day[d] depends only on data with timestamp <= d 00:00 (no leakage of actual load/pv of day d)"
+    },
+    {
+      "id": "R6",
+      "natural_language": "除紧急购电费用外，其他时间段的购电费用均按计划购电量计算",
+      "raw_quote": "除紧急购电费用外，其他时间段的购电费用均按计划购电量计算",
+      "source": "问题2, P1",
+      "machine_check": "cost_q2 == sum(price[t]*plan[t]) + 5*sum(price[t]*emergency[t])"
+    },
+    {
+      "id": "R7",
+      "natural_language": "问题3总费用由计划购电费用、紧急购电费用与调整购电量相关费用三部分组成",
+      "raw_quote": "总的购电费用包括计划购电费用、紧急购电费用和调整购电量的相关费用",
+      "source": "问题3, P2",
+      "machine_check": "cost_q3 == plan_cost + emergency_cost + adjust_related_cost (three terms all present)"
+    },
+    {
+      "id": "R8",
+      "natural_language": "调整策略只能在 6:00/12:00/18:00 预报发布时刻做出，且只能使用该时刻之前的信息",
+      "raw_quote": "可根据 0:00 的预报，制定当天的计划购电策略，也可根据其他时刻的预报，调整购电策略",
+      "source": "问题3, P2",
+      "machine_check": "adjust decision at hour h uses only forecasts issued at <= h and actuals observed < h"
+    },
+    {
+      "id": "R9",
+      "natural_language": "问题3必须回答是否需要引入其他时刻的预报来制定调整策略",
+      "raw_quote": "请分析是否需要引入其他时刻的预报制定调整购电策略",
+      "source": "问题3, P2",
+      "machine_check": "report contains cost comparison of {0:00 only} vs {0:00 + later forecasts} on the same days"
+    },
+    {
+      "id": "R10",
+      "natural_language": "问题4需在波动电价下重新计算问题2和问题3，分别输出 result4-2 与 result4-3",
+      "raw_quote": "在波动电价下重新计算问题 2 和问题 3",
+      "source": "问题4, P2",
+      "machine_check": "exists(result4-2.xlsx) and exists(result4-3.xlsx) and price source == 附件4"
+    }
+  ],
+  "derived_formulas": [
+    {
+      "name": "单时段充放电量上限",
+      "formula": "E_step_max = P_ch_dis_max * (dt_minutes / 60) = 5000 / 6 kWh",
+      "note": "由 P_ch_dis_max 与 dt_minutes 直接推出；派生结果本身不登记为题面事实，下游代码须由这两个原始量现场计算，禁止硬编码"
+    },
+    {
+      "name": "效率的小数形式",
+      "formula": "eta = eta_pct / 100",
+      "note": "由 eta_pct 推出；单向或往返的界定见 PROBLEM_ANALYSIS.md 假设敏感性预检"
+    },
+    {
+      "name": "功率到电量的换算",
+      "formula": "kWh = kW * (dt_minutes / 60)",
+      "note": "附件中负载、光伏均为功率(kW)，模型统一以每时段电量(kWh)为单位"
+    }
+  ],
+  "data_sources": [
+    {
+      "file": "user_data/附件1.xlsx",
+      "raw_quote": "附件 1 提供某天不同时间的电价（单位：元/kWh）、小区负载（单位：kW）和光伏发电预测功率（单位：kW）",
+      "used_by": ["问题1", "问题2的电价", "问题3的电价"],
+      "note": "0:00+1 表示当天 24:00"
+    },
+    {
+      "file": "user_data/附件2.xlsx",
+      "raw_quote": "附件 2 提供 2025.1.1–12.31 每天不同时间的小区负载（单位：kW）和光伏发电实际功率（单位：kW）",
+      "used_by": ["问题2", "问题3", "问题4"],
+      "note": "实际值，仅可用于事后结算与历史训练，不可用于当日 0:00 的计划制定"
+    },
+    {
+      "file": "user_data/附件3.xlsx",
+      "raw_quote": "附件 3 提供 2025.1.1–12.31 每天 0:00、6:00、12:00 和 18:00 发布的未来 24 小时整点的光伏发电功率预报（单位：kW）",
+      "used_by": ["问题3", "问题4"],
+      "note": "整点预报，需插值到 10 分钟分辨率"
+    },
+    {
+      "file": "user_data/附件4.xlsx",
+      "raw_quote": "附件 4 提供 2025.1.1–12.31 每天不同时间的电价（单位：元/kWh）",
+      "used_by": ["问题4"],
+      "note": "波动电价"
+    }
+  ]
+}

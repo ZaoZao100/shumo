@@ -1,0 +1,43 @@
+{
+ "groups": [
+  {
+   "label": "两阶段总费用\n（问题2 → 4-2）",
+   "unit": "万元",
+   "fixed": 1410.443886,
+   "volatile": 1476.693934
+  },
+  {
+   "label": "滚动总费用\n（问题3 → 4-3）",
+   "unit": "万元",
+   "fixed": 1353.715133,
+   "volatile": 1417.668599
+  },
+  {
+   "label": "两阶段循环量\n（问题2 → 4-2）",
+   "unit": "GWh",
+   "fixed": 5.090771559999999,
+   "volatile": 5.38676118
+  },
+  {
+   "label": "滚动循环量\n（问题3 → 4-3）",
+   "unit": "GWh",
+   "fixed": 5.24223126,
+   "volatile": 5.52418328
+  },
+  {
+   "label": "滚动紧急购电量\n（问题3 → 4-3）",
+   "unit": "万kWh",
+   "fixed": 5.283576999999999,
+   "volatile": 5.791183
+  },
+  {
+   "label": "日内价差\n（附件1 → 附件4）",
+   "unit": "元/kWh",
+   "fixed": 1.0239,
+   "volatile": 1.0988
+  }
+ ],
+ "low_price_plan_share": 0.7097,
+ "value_of_price_info": 74249.44,
+ "value_of_price_info_pct": 0.5028
+}

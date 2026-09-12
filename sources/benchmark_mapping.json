@@ -1,0 +1,132 @@
+[
+  {
+    "source_key": "CUMCM_89",
+    "pdf_page": 14,
+    "figure_table": "图7、图8：决策路径与条件分支",
+    "learn": "路径上的条件说明使读者看到什么时候选择哪条分支；图紧贴相应决策推导。",
+    "do_not_copy": "只迁移条件与信息流的表达，不把离散沙漠决策逻辑套到储能LP。",
+    "candidate_current_figures": [
+      1,
+      14,
+      24
+    ],
+    "status": "reference_only_not_implemented"
+  },
+  {
+    "source_key": "CUMCM_94",
+    "pdf_page": 21,
+    "figure_table": "图6、图7：库存状态与原材料比例",
+    "learn": "同一24周口径，先看状态相对基准的偏移，再看组成。",
+    "do_not_copy": "该库存线是基准而非硬下限；不可把原图上下穿越基准解释为约束违规。避免倾斜周标签与过小图例。",
+    "candidate_current_figures": [
+      8,
+      9,
+      16
+    ],
+    "status": "reference_only_not_implemented"
+  },
+  {
+    "source_key": "CUMCM_96",
+    "pdf_page": 6,
+    "figure_table": "图2：垂荡运动受力分析",
+    "learn": "将物理部件、作用方向、符号与紧接的方程连接起来，示意图承担模型解释。",
+    "do_not_copy": "迁移机制解释方式；不添加与微电网无关的实体外观，不复制作者原图。",
+    "candidate_current_figures": [
+      6,
+      7
+    ],
+    "status": "reference_only_not_implemented"
+  },
+  {
+    "source_key": "CUMCM_96",
+    "pdf_page": 18,
+    "figure_table": "图12与表4：四个时域面板和代表时刻数值",
+    "learn": "并列位置/速度等不同量，统一时间范围；关键数值另用短表核查。",
+    "do_not_copy": "保持各量单位独立；改善参考中的重复图例和过多小数，不为四面板使用四色。",
+    "candidate_current_figures": [
+      8,
+      9,
+      16,
+      19
+    ],
+    "status": "reference_only_not_implemented"
+  },
+  {
+    "source_key": "CUMCM_102",
+    "pdf_page": 19,
+    "figure_table": "图8：双层规划框架",
+    "learn": "两个方框明确目标和约束，双向箭头直接标明传递的位置与参数，比罗列算法名更能解释耦合。",
+    "do_not_copy": "我们的滚动执行不是双层规划；只借鉴输入/输出/反馈标注，不改模型结构。",
+    "candidate_current_figures": [
+      1,
+      24
+    ],
+    "status": "reference_only_not_implemented"
+  },
+  {
+    "source_key": "CUMCM_119",
+    "pdf_page": 9,
+    "figure_table": "图5与表6：实际—预测散点及性能指标",
+    "learn": "图展示偏离1:1线的结构，表提供RMSE/MAE等核查指标，两个面板对齐。",
+    "do_not_copy": "图中实际是预测—真实散点，原文称残差图不准确，不沿用。当前图19检查插值一致性，不能偷换成预测准确性验证。新增诊断需独立对齐原始预测与实际值。",
+    "candidate_current_figures": [
+      12,
+      15,
+      19,
+      23
+    ],
+    "status": "reference_only_not_implemented"
+  },
+  {
+    "source_key": "APMCM_262",
+    "pdf_page": 8,
+    "figure_table": "Figure 2、3：变换前后与映射曲线",
+    "learn": "输入、变换规则、输出组成一条可追踪链，下方分布解释改变在哪里；几乎不依赖彩色也能读懂。",
+    "do_not_copy": "可学前后对应与层次，不学对话气泡、任意面板四色或重复单位换算图。",
+    "candidate_current_figures": [
+      14,
+      16,
+      19
+    ],
+    "status": "reference_only_not_implemented"
+  },
+  {
+    "source_key": "APMCM_284",
+    "pdf_page": 9,
+    "figure_table": "图5-5：实体位置与0—1变量",
+    "learn": "将数学决策变量直接标在对应实体位置，并附定义，使符号不悬空。",
+    "do_not_copy": "我们的充放电连续变量不是二进制翼肋变量；只借鉴变量—物理含义的对应。保留正确符号、方向和效率。",
+    "candidate_current_figures": [
+      6,
+      7,
+      8
+    ],
+    "status": "reference_only_not_implemented"
+  },
+  {
+    "source_key": "APMCM_287",
+    "pdf_page": 15,
+    "figure_table": "表6、表7：求解器的多指标比较",
+    "learn": "不同量纲按列展开，方案按行，比较层级清楚；表比混合量纲柱形图更适合读取精确值。",
+    "do_not_copy": "只学习表格组织，不采纳其求解速度/精度结论；时间应放单位列或列标题，避免每格重复单位与过长小数。",
+    "candidate_current_figures": [
+      12,
+      17,
+      22
+    ],
+    "status": "reference_only_not_implemented"
+  },
+  {
+    "source_key": "CUMCM_111",
+    "pdf_page": 7,
+    "figure_table": "表4、表5：情景×决策收益及最优方案",
+    "learn": "数值矩阵中有限突出最优格子，再用短表给最终方案，便于复核选择。",
+    "do_not_copy": "借鉴有限突出，仍采用我们的蓝/灰色义，不照搬黄色满格或重网格；文件内印刷页码与PDF页码不一致，引用统一用PDF页码。",
+    "candidate_current_figures": [
+      12,
+      13,
+      22
+    ],
+    "status": "reference_only_not_implemented"
+  }
+]

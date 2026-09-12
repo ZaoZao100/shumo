@@ -1,0 +1,65 @@
+% purpose: 说明四个决策时刻各自能用的已知实测区间与仍可调整的时段，两者被因果边界隔开，
+%          边界随决策时刻向右推进
+% topology: geometry   reading_direction: coordinate-based
+% node_roles: 决策时刻、已知实测区间、可调时段、因果边界
+% visual_encoding: 粗实线为已知实测、虚线为可调时段、点线竖线为因果边界
+% style_family: restrained Nature-style line art   print_mode: colorblind-safe   final_width: text
+\documentclass[border=3pt,11pt]{standalone}
+\usepackage{ctex}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\definecolor{mhblue}{HTML}{0072B2}
+\begin{document}
+\begin{tikzpicture}[
+  known/.style={draw=mhblue,line width=1.2pt},
+  adj/.style={draw=mhblue,thin,dash pattern=on 3pt off 2.2pt},
+  cut/.style={draw=mhblue,line width=0.6pt,dash pattern=on 0.7pt off 1.6pt},
+  axis/.style={draw=mhblue,line width=0.7pt,-{Stealth[length=4pt]}},
+  lb/.style={font=\small,inner sep=1.2pt}]
+
+% ---- 时间轴与时刻刻度 ----
+\draw[axis] (0,0) -- (9.5,0);
+\node[lb] at (9.4,0.22) {\(t\)};
+\foreach \x/\s in {0/0:00,2.25/6:00,4.5/12:00,6.75/18:00,9/24:00}{
+  \draw[draw=mhblue,line width=0.6pt] (\x,0) -- (\x,-0.14);
+  \node[lb] at (\x,-0.5) {\s};}
+
+% ---- 四个决策时刻：上行最早，边界逐行右移 ----
+% 0:00 只有前一日历史，全天皆可调
+\node[lb,anchor=east] at (-0.22,4.2) {0:00 决策};
+\draw[adj] (0,4.2) -- (9.1,4.2);
+\draw[known] (0,4.05) -- (0,4.35);
+\fill[black] (0,4.2) circle (2.2pt);
+
+% 6:00 重解
+\node[lb,anchor=east] at (-0.22,3.2) {6:00 重解};
+\draw[known] (0,3.2) -- (2.25,3.2);
+\draw[known] (0,3.05) -- (0,3.35);
+\draw[adj] (2.25,3.2) -- (9.1,3.2);
+\fill[black] (2.25,3.2) circle (2.2pt);
+\draw[cut] (2.25,0.16) -- (2.25,3.05);
+
+% 12:00 重解
+\node[lb,anchor=east] at (-0.22,2.2) {12:00 重解};
+\draw[known] (0,2.2) -- (4.5,2.2);
+\draw[known] (0,2.05) -- (0,2.35);
+\draw[adj] (4.5,2.2) -- (9.1,2.2);
+\fill[black] (4.5,2.2) circle (2.2pt);
+\draw[cut] (4.5,0.16) -- (4.5,2.05);
+
+% 18:00 重解
+\node[lb,anchor=east] at (-0.22,1.2) {18:00 重解};
+\draw[known] (0,1.2) -- (6.75,1.2);
+\draw[known] (0,1.05) -- (0,1.35);
+\draw[adj] (6.75,1.2) -- (9.1,1.2);
+\fill[black] (6.75,1.2) circle (2.2pt);
+\draw[cut] (6.75,0.16) -- (6.75,1.05);
+
+% ---- 标注：各只出现一次 ----
+\node[lb,fill=white,anchor=west] at (2.45,2.62) {已知实测};
+\node[lb,fill=white,anchor=west] at (5.05,4.62) {可调时段};
+\node[lb,fill=white,anchor=west] at (4.62,1.72) {因果边界};
+
+\end{tikzpicture}
+\end{document}

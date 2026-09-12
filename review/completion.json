@@ -1,0 +1,21 @@
+{
+  "status": "ready",
+  "figures": 27,
+  "pages": 30,
+  "decisions": {
+    "重绘": 4,
+    "新增": 3,
+    "微调": 1,
+    "保留": 19
+  },
+  "machine_checks": "61/61",
+  "all_pages_and_figures_visually_reviewed": true,
+  "raw_results_recomputed": false,
+  "source_docx_untouched": true,
+  "skills": [
+    "vivid-figures-skill restrained",
+    "documents",
+    "pdf"
+  ],
+  "reference_study": "sources/REFERENCE_STUDY.md"
+}

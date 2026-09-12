@@ -1,0 +1,52 @@
+{
+  "_note": "问题2/3/4 电力调控 逻辑合同（standalone，供 _utils/logic_audit.py）。方向探针写在 figures/*_results.json 的 logic_probes；本文件声明特征完整性、单调方向、限值裕度、等价关系。",
+  "bounds": [
+    {
+      "name": "Q1_objective_below_no_storage_baseline",
+      "claim": "Z1 < 48052.05",
+      "measured": 35126.95,
+      "baseline": 48052.05
+    },
+    {
+      "name": "Q1_objective_above_ideal_efficiency",
+      "claim": "Z1 >= Z1_ideal(eta=1)",
+      "measured": 35126.95,
+      "baseline": 32377.09
+    }
+  ],
+  "no_double_count": [
+    "光伏自用电量不计入购电费用，也不计入储能充电成本，只在平衡约束中出现一次",
+    "紧急购电量 u_t 只在紧急费用项计价，不重复计入计划购电费用",
+    "Q3 中 min(a,b) 与 d_plus 之和等于 a，不与 b 重复计价",
+    "储能循环损耗只通过 eta 在 SOC 递推中体现一次，不再额外扣费"
+  ],
+  "must_features": [
+    "regime（周五/周六 vs 其余）必须进入负载预测",
+    "发布时刻必须进入 Q3 的预报选取",
+    "缺电发生时段的电价必须进入紧急购电计价"
+  ],
+  "observed_model_features": [
+    "regime（周五/周六 vs 其余）必须进入负载预测",
+    "发布时刻必须进入 Q3 的预报选取",
+    "缺电发生时段的电价必须进入紧急购电计价"
+  ],
+  "train_range": {
+    "history_window": "2025-01-01 .. d-1（严格小于当日）",
+    "delivery_range": "2025-02-01 .. 2025-12-31",
+    "n_days": 334,
+    "forbidden": "任何使用当日或更晚数据的拟合与回测"
+  },
+  "monotonic": [
+    {"input": "eta_c*eta_d", "output": "total_cost", "direction": "decreasing"},
+    {"input": "kappa", "output": "optimal_margin", "direction": "increasing"},
+    {"input": "forecast_MAE", "output": "total_cost", "direction": "increasing"},
+    {"input": "peak_valley_spread", "output": "storage_cycling", "direction": "increasing"},
+    {"input": "lead_time_hours", "output": "pv_forecast_MAE", "direction": "increasing"},
+    {"input": "reserve_margin_m", "output": "annual_emergency_kWh", "direction": "decreasing"}
+  ],
+  "constraints_with_margin": [
+    {"quantity": "soc_max", "limit": 10800, "kind": "le"},
+    {"quantity": "soc_min", "limit": 1200, "kind": "ge"}
+  ],
+  "equivalence_claims": []
+}

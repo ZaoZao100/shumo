@@ -1,0 +1,1 @@
+<class 'dict'>['restrained_revision_1\\.codex-plot-runtime.json', 'restrained_revision_1\\CLAUDE.md', 'restrained_revision_1\\FIGURE_PLAN.json', 'restrained_revision_1\\FIGURE_REVIEW_REPORT.md']

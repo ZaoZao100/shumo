@@ -1,0 +1,447 @@
+[
+  {
+    "number": 1,
+    "id": "fig_roadmap",
+    "decision": "重绘",
+    "data_sources": [
+      "figures/fig_roadmap.html",
+      "figures/gen_v3_figures.py",
+      "tools/render_html.cjs"
+    ],
+    "narrative_role": "把四问共享内核与分支关系压缩为一张总览",
+    "color_review": "蓝色共享内核与四问分支，灰色输入",
+    "geometry_review": "四层流程和箭头方向清楚；节点文字未越界；高度由138.12降至90.67 mm",
+    "png_pdf_opened": true,
+    "paper_page": 5,
+    "caption_and_placement_review": "通过",
+    "difference": "压缩为诊断—内核—四问—结算四层，减小高度并明确箭头依赖",
+    "stage": "ready"
+  },
+  {
+    "number": 2,
+    "id": "fig_energy_flow",
+    "decision": "新增",
+    "data_sources": [
+      "sources/params.py",
+      "正文式(2)–(4)",
+      "figures/gen_v3_figures.py",
+      "tools/render_html.cjs"
+    ],
+    "narrative_role": "把交流侧电量与效率作用位置对应到实体能量流",
+    "color_review": "购电蓝、光伏青、充电橙、放电与负载灰；SOC蓝",
+    "geometry_review": "双向储能箭头分列；ηc与ηd作为下标；交流侧与储能侧计量分开",
+    "png_pdf_opened": true,
+    "paper_page": 6,
+    "caption_and_placement_review": "通过",
+    "difference": "新增机制图，帮助理解效率除乘与弃电变量",
+    "stage": "ready"
+  },
+  {
+    "number": 3,
+    "id": "fig_att1_profile",
+    "decision": "微调",
+    "data_sources": [
+      "figures/data_att1_profile.json"
+    ],
+    "narrative_role": "同时核验三份附件的日内负载、光伏和价格结构",
+    "color_review": "负载由橙改灰，与能量流图一致；光伏青；橙仅保留高价",
+    "geometry_review": "四面板承担电价、供需、净需求、价量关系不同作用；kW与每段kWh区分",
+    "png_pdf_opened": true,
+    "paper_page": 7,
+    "caption_and_placement_review": "通过",
+    "difference": "典型日负载曲线由橙色改为中性灰，与新增能量流图统一；数据和四面板结构保留",
+    "stage": "ready"
+  },
+  {
+    "number": 4,
+    "id": "fig_load_regime_ridgeline",
+    "decision": "保留",
+    "data_sources": [
+      "figures/data_load_regime.json"
+    ],
+    "narrative_role": "比较低载与高载日的整日负荷分布",
+    "color_review": "高负载蓝、低负载青；无七色星期分类",
+    "geometry_review": "核密度错位排列；104/261样本量和日均电量可读，分布峰未裁切",
+    "png_pdf_opened": true,
+    "paper_page": 8,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 5,
+    "id": "fig_load_calendar",
+    "decision": "保留",
+    "data_sources": [
+      "figures/data_load_calendar.json"
+    ],
+    "narrative_role": "展示全年日型切换与异常日位置",
+    "color_review": "单蓝深浅编码用电量，青线标低负载行",
+    "geometry_review": "连续周索引保留365日；空白为非全年日期；正文已改为周列、星期行、横向季节变化",
+    "png_pdf_opened": true,
+    "paper_page": 9,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 6,
+    "id": "fig_regime_shape",
+    "decision": "保留",
+    "data_sources": [
+      "figures/data_regime_shape.json"
+    ],
+    "narrative_role": "比较两类负载形状及差异幅度",
+    "color_review": "高负载蓝、低负载青、比值橙虚线、差额灰",
+    "geometry_review": "两功率轨迹和右轴比值清楚；正文改为左轴/右轴，取消错误的上下分面描述",
+    "png_pdf_opened": true,
+    "paper_page": 9,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 7,
+    "id": "tikz_feasible_q1",
+    "decision": "保留",
+    "data_sources": [
+      "figures/tikz_feasible_q1.tex"
+    ],
+    "narrative_role": "构造两时段决策变量的约束交集并标出线性目标方向",
+    "color_review": "蓝色可行域、约束线；黑点示最优顶点",
+    "geometry_review": "保留真实TikZ矢量几何；标注白底不遮顶点；属概念截面，不解释为数据求得的真实多边形",
+    "png_pdf_opened": true,
+    "paper_page": 11,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 8,
+    "id": "tikz_soc_corridor",
+    "decision": "保留",
+    "data_sources": [
+      "figures/tikz_soc_corridor.tex"
+    ],
+    "narrative_role": "说明储电量上下界、功率斜率与首尾闭合约束",
+    "color_review": "蓝色SOC轨迹、走廊与约束；黑色端点",
+    "geometry_review": "保留v2末端t标签修复；上下界、单步可达锥、首末状态分离，无重叠",
+    "png_pdf_opened": true,
+    "paper_page": 12,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 9,
+    "id": "fig_q1_dispatch_stack",
+    "decision": "保留",
+    "data_sources": [
+      "figures/data_q1_dispatch.json"
+    ],
+    "narrative_role": "分解电网购电、光伏、充放电对负荷的逐时供给",
+    "color_review": "购电蓝、PV青、放电灰、负向充电橙；电价灰",
+    "geometry_review": "堆叠电量和电价共用时轴；负向充电不掩盖供给组成；单位为每段kWh",
+    "png_pdf_opened": true,
+    "paper_page": 13,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 10,
+    "id": "fig_q1_soc_price",
+    "decision": "保留",
+    "data_sources": [
+      "figures/data_q1_dispatch.json"
+    ],
+    "narrative_role": "对齐储电量轨迹与分时电价",
+    "color_review": "SOC蓝、电价灰、充电浅橙、放电浅灰；边界橙",
+    "geometry_review": "1200/10800及6000边界可读；双轴单位不同但说明明确，背景分区不盖住线",
+    "png_pdf_opened": true,
+    "paper_page": 13,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 11,
+    "id": "fig_q1_savings_waterfall",
+    "decision": "保留",
+    "data_sources": [
+      "figures/data_q1_savings_waterfall.json"
+    ],
+    "narrative_role": "把基准费用到优化费用的节省来源逐项拆解",
+    "color_review": "实际最优蓝、节省青、损耗橙、基线与理想值灰",
+    "geometry_review": "保留真实瀑布起止高度与连接线；48052.05−15674.96+2749.86=35126.95",
+    "png_pdf_opened": true,
+    "paper_page": 14,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 12,
+    "id": "fig_eta_sensitivity",
+    "decision": "保留",
+    "data_sources": [
+      "figures/data_eta_sensitivity.json"
+    ],
+    "narrative_role": "检验效率参数改变对费用和节省的影响",
+    "color_review": "主口径高费用橙；其它效率解释同蓝",
+    "geometry_review": "横条统一表达相对理想下界增量；末端数字为总费用，正文给出对应口径",
+    "png_pdf_opened": true,
+    "paper_page": 15,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 13,
+    "id": "fig_predictor_mae_bar",
+    "decision": "保留",
+    "data_sources": [
+      "figures/data_predictor_mae.json"
+    ],
+    "narrative_role": "并列比较候选预测器的平均绝对误差",
+    "color_review": "同日型蓝、跨日型灰、采用方案青；橙标关注差异",
+    "geometry_review": "零基线五柱及数值清楚，长类名分两行；MAE单位kW",
+    "png_pdf_opened": true,
+    "paper_page": 16,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 14,
+    "id": "fig_q2_margin_ucurve",
+    "decision": "重绘",
+    "data_sources": [
+      "figures/data_q2_margin_ucurve.json",
+      "figures/gen_v3_figures.py"
+    ],
+    "narrative_role": "区分点预测标量裕度基线与Q2场景规划主方案，展示费用—紧急购电权衡",
+    "color_review": "费用蓝、紧急购电风险橙；选择裕度灰虚线",
+    "geometry_review": "取消双轴，费用和风险上下共用m轴；保留六候选点、3%锚点与334天范围",
+    "png_pdf_opened": true,
+    "paper_page": 17,
+    "caption_and_placement_review": "通过",
+    "difference": "双轴改为共用裕度轴的上下两面板；澄清点预测基线；六组数据未改",
+    "stage": "ready"
+  },
+  {
+    "number": 15,
+    "id": "tikz_info_set",
+    "decision": "保留",
+    "data_sources": [
+      "figures/tikz_info_set.tex"
+    ],
+    "narrative_role": "按四个重优化时刻构造已知区间和仍可调整区间",
+    "color_review": "已知与未来均用蓝，实虚线区分",
+    "geometry_review": "真实TikZ信息边界图保留；四决策行、可用实测与可调区间未混淆",
+    "png_pdf_opened": true,
+    "paper_page": 19,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 16,
+    "id": "fig_forecast_same_target",
+    "decision": "保留",
+    "data_sources": [
+      "figures/data_forecast_same_target.json"
+    ],
+    "narrative_role": "同一目标小时下比较不同发布时刻的MAE，控制目标难度",
+    "color_review": "0:00基准橙圆、12:00更新蓝方、配对连接灰",
+    "geometry_review": "同目标小时配对比较，保留67.8%–90.0%降幅，避免比较不同目标难度",
+    "png_pdf_opened": true,
+    "paper_page": 19,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 17,
+    "id": "fig_settlement_rule",
+    "decision": "新增",
+    "data_sources": [
+      "sources/settle.py",
+      "figures/data_settlement_rule.json",
+      "figures/gen_v3_figures.py"
+    ],
+    "narrative_role": "区分主计法与对照计法的下调边际费用",
+    "color_review": "主计法蓝实线、对照灰虚线；不增加风险色",
+    "geometry_review": "解析曲线两口径在r=1相交，上调区间重合；左右区段表达及b>0,p>0条件完整",
+    "png_pdf_opened": true,
+    "paper_page": 20,
+    "caption_and_placement_review": "通过",
+    "difference": "新增解析曲线，不冒充实验数据",
+    "stage": "ready"
+  },
+  {
+    "number": 18,
+    "id": "fig_q3_rolling_timeline",
+    "decision": "重绘",
+    "data_sources": [
+      "figures/data_q3_rolling_timeline.json",
+      "figures/gen_v3_figures.py"
+    ],
+    "narrative_role": "展示各次重解覆盖的未来时段与冻结区间",
+    "color_review": "最终调整蓝、原计划灰虚线、上调橙、下调灰",
+    "geometry_review": "三面板共享0–24h；决策窗、原/新计划、有符号调整分开；图例移到无数据区域",
+    "png_pdf_opened": true,
+    "paper_page": 21,
+    "caption_and_placement_review": "通过",
+    "difference": "共用时轴分成决策窗、购电对照、净调整三个面板，避免填色遮挡轨迹",
+    "stage": "ready"
+  },
+  {
+    "number": 19,
+    "id": "fig_q3_cost_decomp",
+    "decision": "保留",
+    "data_sources": [
+      "figures/data_q3_cost_decomp.json"
+    ],
+    "narrative_role": "对比计划、紧急与偏差三类成本构成",
+    "color_review": "基价蓝、上调浅橙、紧急深橙、下调灰、节省青",
+    "geometry_review": "费用构成与两种总费用可读；该图只比较Q3内部S0/S1，不混入Q2主方案",
+    "png_pdf_opened": true,
+    "paper_page": 21,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 20,
+    "id": "fig_q2_emergency_calendar",
+    "decision": "保留",
+    "data_sources": [
+      "figures/data_q2_emergency_calendar.json"
+    ],
+    "narrative_role": "定位紧急购电发生的日期与集中程度",
+    "color_review": "灰到橙统一色标表示紧急购电风险",
+    "geometry_review": "两日历同尺度，334天均保留；零值灰、无日期白；热点与总体稀疏化可比",
+    "png_pdf_opened": true,
+    "paper_page": 22,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 21,
+    "id": "fig_q3_interp_check",
+    "decision": "保留",
+    "data_sources": [
+      "figures/data_q3_interp_check.json"
+    ],
+    "narrative_role": "检验光伏时刻插值在边界与峰段的连续性",
+    "color_review": "各发布时间统一蓝色插值线/整点方块，实测灰",
+    "geometry_review": "四面板共轴；仅展示发布之后可用预报，18:00无人为补全天；不称为预报精度图",
+    "png_pdf_opened": true,
+    "paper_page": 23,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 22,
+    "id": "fig_q4_price_ridgeline",
+    "decision": "保留",
+    "data_sources": [
+      "figures/data_q4_price.json"
+    ],
+    "narrative_role": "逐月比较平均日内电价曲线与固定电价",
+    "color_review": "各月同蓝，固定电价橙虚线",
+    "geometry_review": "每月基线偏移0.30元/kWh明确写在轴注中，避免将层高误当绝对价格",
+    "png_pdf_opened": true,
+    "paper_page": 24,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 23,
+    "id": "fig_q4_price_hovmoller",
+    "decision": "保留",
+    "data_sources": [
+      "figures/data_q4_price.json"
+    ],
+    "narrative_role": "同时编码日期与日内时刻的价格偏离",
+    "color_review": "蓝到橙表示低到高价；价差实线灰、固定基准橙",
+    "geometry_review": "日期—时刻热图与日内价差共用日期；色条与右轴单位独立完整",
+    "png_pdf_opened": true,
+    "paper_page": 24,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 24,
+    "id": "fig_q4_fixed_vs_vol",
+    "decision": "保留",
+    "data_sources": [
+      "figures/data_q4_fixed_vs_vol.json"
+    ],
+    "narrative_role": "对比固定电价与波动电价下各费用分量的变化方向",
+    "color_review": "波动电价列蓝、固定列灰、相对增加橙",
+    "geometry_review": "六指标逐行带单位，比例条独立量纲；保留v2改型，避免混合单位共用对数轴",
+    "png_pdf_opened": true,
+    "paper_page": 25,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 25,
+    "id": "fig_forecast_decay",
+    "decision": "保留",
+    "data_sources": [
+      "figures/data_forecast_decay.json"
+    ],
+    "narrative_role": "描述MAE随提前期增长的总体变化",
+    "color_review": "单蓝轨迹与淡蓝填充，无额外彩色系列",
+    "geometry_review": "提前期轴与MAE轴明确；保留局部回落，题注用变化而非严格单调衰减",
+    "png_pdf_opened": true,
+    "paper_page": 26,
+    "caption_and_placement_review": "通过",
+    "difference": "保留 v2 经过验证的图源、数值和视觉编码",
+    "stage": "ready"
+  },
+  {
+    "number": 26,
+    "id": "fig_rolling_benefit_uncertainty",
+    "decision": "新增",
+    "data_sources": [
+      "sources/statistical_uncertainty.json",
+      "sources/daily_paired_cost_differences.csv",
+      "figures/gen_v3_figures.py"
+    ],
+    "narrative_role": "同时展示总收益区间与逐日累计过程，保留两种基线",
+    "color_review": "相对Q2蓝实线、相对内部S0灰虚线，两面板一致",
+    "geometry_review": "95%区间和累计轨迹分面；区间不当作累计曲线置信带；局部回落完整保留",
+    "png_pdf_opened": true,
+    "paper_page": 27,
+    "caption_and_placement_review": "通过",
+    "difference": "新增已冻结统计结果的图证，不重抽样",
+    "stage": "ready"
+  },
+  {
+    "number": 27,
+    "id": "fig_arch_solver",
+    "decision": "重绘",
+    "data_sources": [
+      "figures/fig_arch_solver.html",
+      "figures/gen_v3_figures.py",
+      "tools/render_html.cjs"
+    ],
+    "narrative_role": "说明数据、预测、规划、调度、结算与回算校验的调用关系",
+    "color_review": "功能路径蓝，共享参数灰",
+    "geometry_review": "从导出表回读核验的方向明确；限制说明可读；高度由104.86降至76.60 mm",
+    "png_pdf_opened": true,
+    "paper_page": 28,
+    "caption_and_placement_review": "通过",
+    "difference": "展示导出后回读路径与共享参数限制，去除伪独立校验暗示",
+    "stage": "ready"
+  }
+]

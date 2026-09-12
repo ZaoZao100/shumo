@@ -1,0 +1,62 @@
+% purpose: 说明储电量轨迹被上下界夹成一条走廊，单段涨落幅度受功率上限限制且充放不对称，
+%          日内首尾储电量还必须相等
+% topology: geometry   reading_direction: coordinate-based
+% node_roles: 上下界、可行走廊、可达斜率锥、首尾闭合线、示例轨迹
+% visual_encoding: 虚线为界、粗实线为轨迹、点线为闭合参考，斜率由锥的两条边表示
+% style_family: restrained Nature-style line art   print_mode: colorblind-safe   final_width: text
+\documentclass[border=3pt,11pt]{standalone}
+\usepackage{ctex}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\definecolor{mhblue}{HTML}{0072B2}
+\begin{document}
+\begin{tikzpicture}[
+  bound/.style={draw=mhblue,thin,dash pattern=on 3pt off 2pt},
+  traj/.style={draw=mhblue,line width=1.1pt},
+  tie/.style={draw=mhblue,thin,dash pattern=on 0.7pt off 1.6pt},
+  cone/.style={draw=mhblue,line width=0.6pt,dash pattern=on 2pt off 1.5pt},
+  axis/.style={draw=mhblue,line width=0.7pt,-{Stealth[length=4pt]}},
+  lead/.style={draw=mhblue,line width=0.5pt},
+  lb/.style={font=\small,inner sep=1.2pt}]
+
+% ---- 坐标轴与时刻刻度 ----
+\draw[axis] (0,0) -- (9.4,0);
+\draw[axis] (0,0) -- (0,5.7);
+\node[lb] at (9.3,0.285) {\(t\)};
+\node[lb] at (-0.5,5.62) {\(E_t\)};
+\foreach \x/\s in {0/0:00,2.25/6:00,4.5/12:00,6.75/18:00,9/24:00}{
+  \draw[draw=mhblue,line width=0.6pt] (\x,0) -- (\x,-0.12);
+  \node[lb] at (\x,-0.48) {\s};}
+
+% ---- 储电量上下界：中间即可行走廊 ----
+\draw[bound] (0,0.9) -- (9.2,0.9);
+\draw[bound] (0,4.5) -- (9.2,4.5);
+\node[lb,anchor=west] at (9.28,0.9) {\(E_{\min}\)};
+\node[lb,anchor=west] at (9.28,4.5) {\(E_{\max}\)};
+
+% ---- 示例轨迹：谷时段充、峰时段放，首尾同高 ----
+\draw[traj] (0,2.2) -- (1.0,3.0) -- (1.8,3.6) -- (2.6,3.1) -- (3.4,2.3)
+  -- (4.2,1.6) -- (5.0,2.4) -- (5.8,3.3) -- (6.6,4.0) -- (7.4,3.2)
+  -- (8.2,2.5) -- (9.0,2.2);
+\fill[black] (0,2.2) circle (2.4pt);
+\fill[black] (9,2.2) circle (2.4pt);
+
+% ---- 首尾闭合参考线 ----
+\draw[tie] (0,2.2) -- (9.2,2.2);
+\node[lb,fill=white,anchor=west] at (7.15,2.05) {\(E_0=E_{144}\)};
+
+% ---- 单段可达斜率锥：充电与放电的最大涨落不对称 ----
+\draw[cone] (0.55,1.55) -- (1.75,2.55);
+\draw[cone] (0.55,1.55) -- (1.75,0.32);
+\draw[cone] (1.75,2.55) -- (1.75,0.32);
+\fill[black] (0.55,1.55) circle (1.9pt);
+\node[lb,fill=white,anchor=west] at (1.85,2.62) {单段最大充电涨幅 \(\eta_c\bar{c}\)};
+\node[lb,fill=white,anchor=west] at (1.85,0.35) {单段最大放电跌幅 \(\bar{s}/\eta_d\)};
+
+% ---- 走廊标注 ----
+\node[lb,fill=white,anchor=west] at (3.1,5.15) {可行走廊：轨迹须逐段落在上下界之间};
+\draw[lead] (3.05,5.05) -- (2.35,4.55);
+
+\end{tikzpicture}
+\end{document}

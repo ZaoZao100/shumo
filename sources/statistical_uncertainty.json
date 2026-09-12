@@ -1,0 +1,108 @@
+{
+  "method": "7日循环移动块自助法；逐日配对费用差；双侧百分位95%置信区间",
+  "scope": "2025-02-01至2025-12-31共334日；同一交付期用于参数选择与评价，非独立测试集",
+  "saving_vs_q3_internal_s0": {
+    "n_days": 334,
+    "block_length_days": 7,
+    "bootstrap_replicates": 10000,
+    "seed": 20260912,
+    "mean_daily_difference_yuan": 1861.6300541228575,
+    "mean_daily_ci95_yuan": [
+      1272.0478111005339,
+      2628.209908847504
+    ],
+    "period_total_difference_yuan": 621784.4380770344,
+    "period_total_ci95_yuan": [
+      424863.9689075783,
+      877822.1095550662
+    ],
+    "median_daily_difference_yuan": 722.4035767559417,
+    "positive_day_share": 0.7275449101796407,
+    "stable_positive_under_block_ci": true
+  },
+  "saving_vs_q2_two_stage": {
+    "n_days": 334,
+    "block_length_days": 7,
+    "bootstrap_replicates": 10000,
+    "seed": 20260913,
+    "mean_daily_difference_yuan": 1698.4656392043842,
+    "mean_daily_ci95_yuan": [
+      1119.3592545558618,
+      2368.6358618627155
+    ],
+    "period_total_difference_yuan": 567287.5234942643,
+    "period_total_ci95_yuan": [
+      373865.9910216578,
+      791124.377862147
+    ],
+    "median_daily_difference_yuan": 359.2298367785734,
+    "positive_day_share": 0.5958083832335329,
+    "stable_positive_under_block_ci": true
+  },
+  "seasonal_performance": [
+    {
+      "season": "冬季",
+      "n_days": 59,
+      "saving_vs_q3_s0_yuan": 99738.20068310807,
+      "saving_vs_q2_yuan": 112772.17116911191,
+      "mean_daily_saving_vs_s0_yuan": 1690.4779776797977,
+      "mean_daily_saving_vs_q2_yuan": 1911.392731679863,
+      "positive_day_share_vs_s0": 0.7457627118644068,
+      "positive_day_share_vs_q2": 0.6779661016949152
+    },
+    {
+      "season": "春季",
+      "n_days": 92,
+      "saving_vs_q3_s0_yuan": 167851.58887511192,
+      "saving_vs_q2_yuan": 127052.16140340635,
+      "mean_daily_saving_vs_s0_yuan": 1824.4737921207818,
+      "mean_daily_saving_vs_q2_yuan": 1381.0017543848517,
+      "positive_day_share_vs_s0": 0.7391304347826086,
+      "positive_day_share_vs_q2": 0.5652173913043478
+    },
+    {
+      "season": "夏季",
+      "n_days": 92,
+      "saving_vs_q3_s0_yuan": 248039.09463200287,
+      "saving_vs_q2_yuan": 230222.42815386844,
+      "mean_daily_saving_vs_s0_yuan": 2696.0771155652487,
+      "mean_daily_saving_vs_q2_yuan": 2502.417697324657,
+      "positive_day_share_vs_s0": 0.6521739130434783,
+      "positive_day_share_vs_q2": 0.5760869565217391
+    },
+    {
+      "season": "秋季",
+      "n_days": 91,
+      "saving_vs_q3_s0_yuan": 106155.55388681163,
+      "saving_vs_q2_yuan": 97240.76276787769,
+      "mean_daily_saving_vs_s0_yuan": 1166.5445482067212,
+      "mean_daily_saving_vs_q2_yuan": 1068.5798106360187,
+      "positive_day_share_vs_s0": 0.7802197802197802,
+      "positive_day_share_vs_q2": 0.5934065934065934
+    }
+  ],
+  "extreme_day_definition": "按实际日净负荷能量的交付期95%分位数划分，阈值=87196.118955 kWh",
+  "extreme_day_performance": [
+    {
+      "extreme_group": "其余95%",
+      "n_days": 317,
+      "saving_vs_q3_s0_yuan": 606277.3742862158,
+      "saving_vs_q2_yuan": 544457.1809660774,
+      "mean_daily_saving_vs_s0_yuan": 1912.5469220385355,
+      "mean_daily_saving_vs_q2_yuan": 1717.5305393251651,
+      "positive_day_share_vs_s0": 0.7318611987381703,
+      "positive_day_share_vs_q2": 0.5899053627760252
+    },
+    {
+      "extreme_group": "净负荷能量最高5%",
+      "n_days": 17,
+      "saving_vs_q3_s0_yuan": 15507.063790818727,
+      "saving_vs_q2_yuan": 22830.342528187037,
+      "mean_daily_saving_vs_s0_yuan": 912.1802229893369,
+      "mean_daily_saving_vs_q2_yuan": 1342.9613251874728,
+      "positive_day_share_vs_s0": 0.6470588235294118,
+      "positive_day_share_vs_q2": 0.7058823529411765
+    }
+  ],
+  "improvement_stability_statement": "两项费用差的块自助95%区间下界均大于0，支持在当前交付期与所设重采样方法下总体改进稳定。"
+}

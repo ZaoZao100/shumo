@@ -1,0 +1,8 @@
+{
+ "baseline": 48052.05,
+ "optimal": 35126.95,
+ "ideal": 32377.09,
+ "savings": 12925.1,
+ "savings_pct": 26.9,
+ "loss_vs_ideal": 2749.859999999997
+}

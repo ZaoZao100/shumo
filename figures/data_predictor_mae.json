@@ -1,0 +1,30 @@
+{
+ "rows": [
+  {
+   "label": "同 regime\n最近 4 天",
+   "mae": 137.51604923382402,
+   "group": "same"
+  },
+  {
+   "label": "同 regime\n最近 8 天",
+   "mae": 148.3373622499792,
+   "group": "same"
+  },
+  {
+   "label": "同 regime\n上一天",
+   "mae": 157.08641104249833,
+   "group": "same"
+  },
+  {
+   "label": "跨 regime\n最近 7 天",
+   "mae": 781.2110842648037,
+   "group": "cross"
+  },
+  {
+   "label": "跨 regime\n全历史",
+   "mae": 803.6452398617248,
+   "group": "cross"
+  }
+ ],
+ "w_used": 4
+}

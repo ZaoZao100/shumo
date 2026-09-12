@@ -1,0 +1,245 @@
+[
+  {
+    "number": 1,
+    "id": "fig_roadmap",
+    "member": "word/media/image1.png",
+    "width_mm": 155.43930555555556,
+    "height_mm": 90.67291666666667,
+    "previous_number": 1,
+    "changed": true
+  },
+  {
+    "number": 2,
+    "id": "fig_energy_flow",
+    "member": "word/media/v3_fig_energy_flow.png",
+    "width_mm": 150,
+    "height_mm": 62.5,
+    "previous_number": null,
+    "changed": true
+  },
+  {
+    "number": 3,
+    "id": "fig_att1_profile",
+    "member": "word/media/image2.png",
+    "width_mm": 116.68883333333333,
+    "height_mm": 109.6875,
+    "previous_number": 2,
+    "changed": true
+  },
+  {
+    "number": 4,
+    "id": "fig_load_regime_ridgeline",
+    "member": "word/media/image3.png",
+    "width_mm": 146.25,
+    "height_mm": 97.5,
+    "previous_number": 3,
+    "changed": false
+  },
+  {
+    "number": 5,
+    "id": "fig_load_calendar",
+    "member": "word/media/image4.png",
+    "width_mm": 146.24997222222223,
+    "height_mm": 66.99641666666666,
+    "previous_number": 4,
+    "changed": false
+  },
+  {
+    "number": 6,
+    "id": "fig_regime_shape",
+    "member": "word/media/image5.png",
+    "width_mm": 146.25,
+    "height_mm": 82.875,
+    "previous_number": 5,
+    "changed": false
+  },
+  {
+    "number": 7,
+    "id": "tikz_feasible_q1",
+    "member": "word/media/image6.png",
+    "width_mm": 156.0,
+    "height_mm": 119.10569444444444,
+    "previous_number": 6,
+    "changed": false
+  },
+  {
+    "number": 8,
+    "id": "tikz_soc_corridor",
+    "member": "word/media/image7.png",
+    "width_mm": 156.0,
+    "height_mm": 93.56830555555555,
+    "previous_number": 7,
+    "changed": false
+  },
+  {
+    "number": 9,
+    "id": "fig_q1_dispatch_stack",
+    "member": "word/media/image8.png",
+    "width_mm": 146.25,
+    "height_mm": 102.375,
+    "previous_number": 8,
+    "changed": false
+  },
+  {
+    "number": 10,
+    "id": "fig_q1_soc_price",
+    "member": "word/media/image9.png",
+    "width_mm": 146.25,
+    "height_mm": 82.875,
+    "previous_number": 9,
+    "changed": false
+  },
+  {
+    "number": 11,
+    "id": "fig_q1_savings_waterfall",
+    "member": "word/media/image10.png",
+    "width_mm": 146.25,
+    "height_mm": 80.4375,
+    "previous_number": 10,
+    "changed": false
+  },
+  {
+    "number": 12,
+    "id": "fig_eta_sensitivity",
+    "member": "word/media/image11.png",
+    "width_mm": 146.25,
+    "height_mm": 73.125,
+    "previous_number": 11,
+    "changed": false
+  },
+  {
+    "number": 13,
+    "id": "fig_predictor_mae_bar",
+    "member": "word/media/image12.png",
+    "width_mm": 146.25,
+    "height_mm": 78.0,
+    "previous_number": 12,
+    "changed": false
+  },
+  {
+    "number": 14,
+    "id": "fig_q2_margin_ucurve",
+    "member": "word/media/image13.png",
+    "width_mm": 146.25,
+    "height_mm": 82.875,
+    "previous_number": 13,
+    "changed": true
+  },
+  {
+    "number": 15,
+    "id": "tikz_info_set",
+    "member": "word/media/image14.png",
+    "width_mm": 156.0,
+    "height_mm": 76.30025,
+    "previous_number": 14,
+    "changed": false
+  },
+  {
+    "number": 16,
+    "id": "fig_forecast_same_target",
+    "member": "word/media/image15.png",
+    "width_mm": 146.25,
+    "height_mm": 75.5625,
+    "previous_number": 15,
+    "changed": false
+  },
+  {
+    "number": 17,
+    "id": "fig_settlement_rule",
+    "member": "word/media/v3_fig_settlement_rule.png",
+    "width_mm": 150,
+    "height_mm": 64.07833333333333,
+    "previous_number": null,
+    "changed": true
+  },
+  {
+    "number": 18,
+    "id": "fig_q3_rolling_timeline",
+    "member": "word/media/image16.png",
+    "width_mm": 155.5851111111111,
+    "height_mm": 111.63411111111111,
+    "previous_number": 16,
+    "changed": true
+  },
+  {
+    "number": 19,
+    "id": "fig_q3_cost_decomp",
+    "member": "word/media/image17.png",
+    "width_mm": 146.25,
+    "height_mm": 82.875,
+    "previous_number": 17,
+    "changed": false
+  },
+  {
+    "number": 20,
+    "id": "fig_q2_emergency_calendar",
+    "member": "word/media/image18.png",
+    "width_mm": 146.25,
+    "height_mm": 87.75,
+    "previous_number": 18,
+    "changed": false
+  },
+  {
+    "number": 21,
+    "id": "fig_q3_interp_check",
+    "member": "word/media/image19.png",
+    "width_mm": 110.79544444444444,
+    "height_mm": 97.5,
+    "previous_number": 19,
+    "changed": false
+  },
+  {
+    "number": 22,
+    "id": "fig_q4_price_ridgeline",
+    "member": "word/media/image20.png",
+    "width_mm": 146.25,
+    "height_mm": 107.25,
+    "previous_number": 20,
+    "changed": false
+  },
+  {
+    "number": 23,
+    "id": "fig_q4_price_hovmoller",
+    "member": "word/media/image21.png",
+    "width_mm": 146.25,
+    "height_mm": 87.75,
+    "previous_number": 21,
+    "changed": false
+  },
+  {
+    "number": 24,
+    "id": "fig_q4_fixed_vs_vol",
+    "member": "word/media/image22.png",
+    "width_mm": 146.25,
+    "height_mm": 82.875,
+    "previous_number": 22,
+    "changed": false
+  },
+  {
+    "number": 25,
+    "id": "fig_forecast_decay",
+    "member": "word/media/image23.png",
+    "width_mm": 146.25,
+    "height_mm": 80.4375,
+    "previous_number": 23,
+    "changed": false
+  },
+  {
+    "number": 26,
+    "id": "fig_rolling_benefit_uncertainty",
+    "member": "word/media/v3_fig_rolling_benefit_uncertainty.png",
+    "width_mm": 150,
+    "height_mm": 94.35483333333333,
+    "previous_number": null,
+    "changed": true
+  },
+  {
+    "number": 27,
+    "id": "fig_arch_solver",
+    "member": "word/media/image24.png",
+    "width_mm": 155.35827777777777,
+    "height_mm": 76.60025,
+    "previous_number": 24,
+    "changed": true
+  }
+]
