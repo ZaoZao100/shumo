@@ -1,1 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="355" viewBox="0 0 720 355"><defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#6E747B"/></marker></defs><rect width="720" height="100%" fill="white"/><path d="M120,75 L120,120" stroke="#6E747B" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/><path d="M360,75 L360,120" stroke="#6E747B" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/><path d="M225,160 L255,160" stroke="#6E747B" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/><path d="M465,160 L495,160" stroke="#6E747B" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/><path d="M600,200 L600,255" stroke="#6E747B" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/><rect x="15" y="15" width="690" height="60" fill="white" stroke="#6E747B" stroke-width="1.4"/><text x="360.0" y="38.5" text-anchor="middle" fill="#6E747B" font-size="19">共享参数与业务口径</text><text x="360.0" y="63.5" text-anchor="middle" fill="#24292E" font-size="17">容量 · 效率 · 时间步长 · 费用规则</text><rect x="15" y="120" width="210" height="80" fill="white" stroke="#0072B2" stroke-width="1.4"/><text x="120.0" y="141.0" text-anchor="middle" fill="#0072B2" font-size="19">构造与求解</text><text x="120.0" y="166.0" text-anchor="middle" fill="#24292E" font-size="17">预报／场景 → LP</text><text x="120.0" y="191.0" text-anchor="middle" fill="#24292E" font-size="17">HiGHS 求解</text><rect x="255" y="120" width="210" height="80" fill="white" stroke="#0072B2" stroke-width="1.4"/><text x="360.0" y="141.0" text-anchor="middle" fill="#0072B2" font-size="19">因果执行与结算</text><text x="360.0" y="166.0" text-anchor="middle" fill="#24292E" font-size="17">当前实测 → 执行动作</text><text x="360.0" y="191.0" text-anchor="middle" fill="#24292E" font-size="17">状态连续与费用分解</text><rect x="495" y="120" width="210" height="80" fill="white" stroke="#0072B2" stroke-width="1.4"/><text x="600.0" y="141.0" text-anchor="middle" fill="#0072B2" font-size="19">导出逐时段结果</text><text x="600.0" y="166.0" text-anchor="middle" fill="#24292E" font-size="17">计划、动作、SOC</text><text x="600.0" y="191.0" text-anchor="middle" fill="#24292E" font-size="17">Excel 结果表</text><rect x="15" y="255" width="690" height="65" fill="white" stroke="#0072B2" stroke-width="1.4"/><text x="360.0" y="281.0" text-anchor="middle" fill="#0072B2" font-size="19">重新读取导出表并回算</text><text x="360.0" y="306.0" text-anchor="middle" fill="#24292E" font-size="17">平衡 · SOC · 功率 · 非负性 · 端点 · 计划费用</text><text x="18" y="346" font-size="17" fill="#24292E">回算可发现实现与导出错误；共享参数和业务解释仍需另行核对。</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="292" viewBox="0 0 720 292">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="context-stroke"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<polyline points="200,40 264,40" fill="none" stroke="#737A80" stroke-width="1.3" marker-end="url(#arr)"/>
+<polyline points="454,40 518,40" fill="none" stroke="#737A80" stroke-width="1.3" marker-end="url(#arr)"/>
+<polyline points="609,65 609,115" fill="none" stroke="#737A80" stroke-width="1.3" marker-end="url(#arr)"/>
+<polyline points="518,140 454,140" fill="none" stroke="#737A80" stroke-width="1.3" marker-end="url(#arr)"/>
+<polyline points="264,140 200,140" fill="none" stroke="#737A80" stroke-width="1.3" marker-end="url(#arr)"/>
+<polyline points="110,115 110,90 359,90 359,65" fill="none" stroke="#737A80" stroke-width="1.3" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+<rect x="20" y="15" width="180" height="50" fill="white" stroke="#737A80" stroke-width="1.2"/>
+<text x="110.0" y="30.200000000000003" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="14" fill="#22272B">题目附件与参数</text>
+<text x="110.0" y="49.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="14" fill="#22272B">单位、日期、发布时刻</text>
+<rect x="264" y="15" width="190" height="50" fill="white" stroke="#0072B2" stroke-width="1.2"/>
+<text x="359.0" y="30.200000000000003" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="14" fill="#22272B">预测与模型装配</text>
+<text x="359.0" y="49.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="14" fill="#22272B">稀疏约束 → HiGHS</text>
+<rect x="518" y="15" width="182" height="50" fill="white" stroke="#0072B2" stroke-width="1.2"/>
+<text x="609.0" y="30.200000000000003" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="14" fill="#22272B">按时段执行</text>
+<text x="609.0" y="49.8" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="14" fill="#22272B">更新 SOC 与费用</text>
+<rect x="518" y="115" width="182" height="50" fill="white" stroke="#0072B2" stroke-width="1.2"/>
+<text x="609.0" y="130.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="14" fill="#22272B">导出 Excel 结果表</text>
+<text x="609.0" y="149.79999999999998" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="14" fill="#22272B">计划、动作、状态</text>
+<rect x="264" y="115" width="190" height="50" fill="white" stroke="#737A80" stroke-width="1.2"/>
+<text x="359.0" y="130.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="14" fill="#22272B">重新读取逐时段结果</text>
+<text x="359.0" y="149.79999999999998" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="14" fill="#22272B">平衡 / SOC / 功率 / 费用</text>
+<rect x="20" y="115" width="180" height="50" fill="white" stroke="#737A80" stroke-width="1.2"/>
+<text x="110.0" y="130.2" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="14" fill="#22272B">核查差异与约束残差</text>
+<text x="110.0" y="149.79999999999998" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="14" fill="#22272B">定位异常时段</text>
+<text x="224.0" y="81.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="12" fill="#22272B">有差异则回查</text>
+<rect x="20" y="217" width="305" height="44" fill="white" stroke="#737A80" stroke-width="1.2"/>
+<text x="172.5" y="239.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="14" fill="#22272B">信息边界另查历史索引与发布时间</text>
+<rect x="360" y="217" width="340" height="44" fill="white" stroke="#737A80" stroke-width="1.2"/>
+<text x="530.0" y="239.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei" font-size="14" fill="#22272B">共享参数和业务解释：属于交叉回算</text>
+</svg>

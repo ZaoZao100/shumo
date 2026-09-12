@@ -1,0 +1,184 @@
+[
+  {
+    "number": 1,
+    "id": "fig_roadmap",
+    "member": "word/media/image1.png",
+    "width_mm": 150.0,
+    "height_mm": 76.04166666666667
+  },
+  {
+    "number": 2,
+    "id": "fig_energy_flow",
+    "member": "word/media/fig_energy_flow.png",
+    "width_mm": 150.0,
+    "height_mm": 57.291666666666664
+  },
+  {
+    "number": 3,
+    "id": "fig_att1_profile",
+    "member": "word/media/image2.png",
+    "width_mm": 150.0,
+    "height_mm": 112.95611111111111
+  },
+  {
+    "number": 4,
+    "id": "fig_load_regime_ridgeline",
+    "member": "word/media/image3.png",
+    "width_mm": 146.25,
+    "height_mm": 97.5
+  },
+  {
+    "number": 5,
+    "id": "fig_load_calendar",
+    "member": "word/media/image4.png",
+    "width_mm": 146.24997222222223,
+    "height_mm": 66.99641666666666
+  },
+  {
+    "number": 6,
+    "id": "fig_regime_shape",
+    "member": "word/media/image5.png",
+    "width_mm": 146.25,
+    "height_mm": 82.875
+  },
+  {
+    "number": 7,
+    "id": "tikz_feasible_q1",
+    "member": "word/media/image6.png",
+    "width_mm": 118.0,
+    "height_mm": 90.09277777777778
+  },
+  {
+    "number": 8,
+    "id": "tikz_soc_corridor",
+    "member": "word/media/image7.png",
+    "width_mm": 118.0,
+    "height_mm": 70.77602777777778
+  },
+  {
+    "number": 9,
+    "id": "fig_q1_dispatch_stack",
+    "member": "word/media/image8.png",
+    "width_mm": 146.25,
+    "height_mm": 102.375
+  },
+  {
+    "number": 10,
+    "id": "fig_q1_soc_price",
+    "member": "word/media/image9.png",
+    "width_mm": 146.25,
+    "height_mm": 82.875
+  },
+  {
+    "number": 11,
+    "id": "fig_q1_savings_waterfall",
+    "member": "word/media/image10.png",
+    "width_mm": 146.25,
+    "height_mm": 80.4375
+  },
+  {
+    "number": 12,
+    "id": "fig_eta_sensitivity",
+    "member": "word/media/image11.png",
+    "width_mm": 146.25,
+    "height_mm": 73.125
+  },
+  {
+    "number": 13,
+    "id": "fig_predictor_mae_bar",
+    "member": "word/media/image12.png",
+    "width_mm": 146.25,
+    "height_mm": 78.0
+  },
+  {
+    "number": 14,
+    "id": "fig_q2_margin_ucurve",
+    "member": "word/media/image13.png",
+    "width_mm": 150.0,
+    "height_mm": 81.2268611111111
+  },
+  {
+    "number": 15,
+    "id": "tikz_info_set",
+    "member": "word/media/image14.png",
+    "width_mm": 140.0,
+    "height_mm": 68.47458333333333
+  },
+  {
+    "number": 16,
+    "id": "fig_forecast_same_target",
+    "member": "word/media/image15.png",
+    "width_mm": 146.25,
+    "height_mm": 75.5625
+  },
+  {
+    "number": 17,
+    "id": "fig_q3_rolling_timeline",
+    "member": "word/media/image16.png",
+    "width_mm": 150.0,
+    "height_mm": 81.2268611111111
+  },
+  {
+    "number": 18,
+    "id": "fig_q3_cost_decomp",
+    "member": "word/media/image17.png",
+    "width_mm": 150.0,
+    "height_mm": 73.61183333333334
+  },
+  {
+    "number": 19,
+    "id": "fig_q2_emergency_calendar",
+    "member": "word/media/image18.png",
+    "width_mm": 146.25,
+    "height_mm": 87.75
+  },
+  {
+    "number": 20,
+    "id": "fig_q3_interp_check",
+    "member": "word/media/image19.png",
+    "width_mm": 146.25,
+    "height_mm": 128.7
+  },
+  {
+    "number": 21,
+    "id": "fig_q4_price_ridgeline",
+    "member": "word/media/image20.png",
+    "width_mm": 150.0,
+    "height_mm": 102.80275
+  },
+  {
+    "number": 22,
+    "id": "fig_q4_price_hovmoller",
+    "member": "word/media/image21.png",
+    "width_mm": 146.25,
+    "height_mm": 87.75
+  },
+  {
+    "number": 23,
+    "id": "fig_q4_fixed_vs_vol",
+    "member": "word/media/image22.png",
+    "width_mm": 146.25,
+    "height_mm": 82.875
+  },
+  {
+    "number": 24,
+    "id": "fig_forecast_decay",
+    "member": "word/media/image23.png",
+    "width_mm": 146.25,
+    "height_mm": 80.4375
+  },
+  {
+    "number": 25,
+    "id": "fig_rolling_benefit_uncertainty",
+    "member": "word/media/fig_rolling_benefit_uncertainty.png",
+    "width_mm": 150.0,
+    "height_mm": 91.38022222222222
+  },
+  {
+    "number": 26,
+    "id": "fig_arch_solver",
+    "member": "word/media/image24.png",
+    "width_mm": 150.0,
+    "height_mm": 60.833333333333336
+  }
+]

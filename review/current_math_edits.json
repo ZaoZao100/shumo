@@ -1,0 +1,12 @@
+[
+  {
+    "before": "minx,c,s,q t=1144ptxts.t.xt+Gt+st=Lt+ct+qt,∀t[2pt]Et=Et−1+ηcct−st/ηd,∀t[2pt]Emin≤Et≤Emax,  0≤ct,st≤PmaxΔt,∀t",
+    "after": "minx,c,s,q t=1144ptxts.t.xt+Gt+st=Lt+ct+qt,∀tEt=Et−1+ηcct−st/ηd,∀tEmin≤Et≤Emax,  0≤ct,st≤PmaxΔt,∀t",
+    "reason": "Remove literal TeX spacing artifacts; operators, variables and numeric constraints unchanged"
+  },
+  {
+    "before": "(1+m)nd,t",
+    "after": "(1+m)Ld,t−Gd,t",
+    "reason": "problem2.scalar_margin_year and problem3._net_in_at_hour use (1+m)*load_hat-pv_hat"
+  }
+]

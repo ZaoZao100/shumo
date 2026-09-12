@@ -1,0 +1,976 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "item": "Word图片数量与顺序",
+      "passed": true,
+      "evidence": "26 drawings in narrative order"
+    },
+    {
+      "item": "图1嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image1.png"
+    },
+    {
+      "item": "图2嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/fig_energy_flow.png"
+    },
+    {
+      "item": "图3嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image2.png"
+    },
+    {
+      "item": "图4嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image3.png"
+    },
+    {
+      "item": "图5嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image4.png"
+    },
+    {
+      "item": "图6嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image5.png"
+    },
+    {
+      "item": "图7嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image6.png"
+    },
+    {
+      "item": "图8嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image7.png"
+    },
+    {
+      "item": "图9嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image8.png"
+    },
+    {
+      "item": "图10嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image9.png"
+    },
+    {
+      "item": "图11嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image10.png"
+    },
+    {
+      "item": "图12嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image11.png"
+    },
+    {
+      "item": "图13嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image12.png"
+    },
+    {
+      "item": "图14嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image13.png"
+    },
+    {
+      "item": "图15嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image14.png"
+    },
+    {
+      "item": "图16嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image15.png"
+    },
+    {
+      "item": "图17嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image16.png"
+    },
+    {
+      "item": "图18嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image17.png"
+    },
+    {
+      "item": "图19嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image18.png"
+    },
+    {
+      "item": "图20嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image19.png"
+    },
+    {
+      "item": "图21嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image20.png"
+    },
+    {
+      "item": "图22嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image21.png"
+    },
+    {
+      "item": "图23嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image22.png"
+    },
+    {
+      "item": "图24嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image23.png"
+    },
+    {
+      "item": "图25嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/fig_rolling_benefit_uncertainty.png"
+    },
+    {
+      "item": "图26嵌入PNG一致",
+      "passed": true,
+      "evidence": "word/media/image24.png"
+    },
+    {
+      "item": "正文图号引用范围",
+      "passed": true,
+      "evidence": {
+        "reference_occurrences": 79,
+        "range": [
+          1,
+          26
+        ]
+      }
+    },
+    {
+      "item": "完整论文渲染",
+      "passed": true,
+      "evidence": "28 PDF pages and 28 rendered page images"
+    },
+    {
+      "item": "图1题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          5
+        ],
+        "caption": "图1全文技术路线"
+      }
+    },
+    {
+      "item": "图1单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 30,
+        "fonts": 1
+      }
+    },
+    {
+      "item": "图2题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          6
+        ],
+        "caption": "图2母线能量流与储能效率"
+      }
+    },
+    {
+      "item": "图2单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 19,
+        "fonts": 2
+      }
+    },
+    {
+      "item": "图3题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          7
+        ],
+        "caption": "图3附件一平均日断面"
+      }
+    },
+    {
+      "item": "图3单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 225,
+        "fonts": 3
+      }
+    },
+    {
+      "item": "图4题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          8
+        ],
+        "caption": "图4日用电量按星期分布"
+      }
+    },
+    {
+      "item": "图4单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 43,
+        "fonts": 4
+      }
+    },
+    {
+      "item": "图5题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          9
+        ],
+        "caption": "图5全年日用电量日历热图"
+      }
+    },
+    {
+      "item": "图5单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 13,
+        "fonts": 3
+      }
+    },
+    {
+      "item": "图6题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          9
+        ],
+        "caption": "图6两日型日内负载形状"
+      }
+    },
+    {
+      "item": "图6单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 38,
+        "fonts": 2
+      }
+    },
+    {
+      "item": "图7题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          11
+        ],
+        "caption": "图7相邻两段可行域示意"
+      }
+    },
+    {
+      "item": "图7单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 24,
+        "fonts": 4
+      }
+    },
+    {
+      "item": "图8题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          11
+        ],
+        "caption": "图8储电量可行走廊示意"
+      }
+    },
+    {
+      "item": "图8单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 24,
+        "fonts": 7
+      }
+    },
+    {
+      "item": "图9题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          12
+        ],
+        "caption": "图9问题一最优调度构成"
+      }
+    },
+    {
+      "item": "图9单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 44,
+        "fonts": 4
+      }
+    },
+    {
+      "item": "图10题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          12
+        ],
+        "caption": "图10问题一储电量与电价相位"
+      }
+    },
+    {
+      "item": "图10单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 117,
+        "fonts": 5
+      }
+    },
+    {
+      "item": "图11题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          13
+        ],
+        "caption": "图11问题一费用瀑布分解"
+      }
+    },
+    {
+      "item": "图11单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 30,
+        "fonts": 5
+      }
+    },
+    {
+      "item": "图12题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          14
+        ],
+        "caption": "图12效率读法灵敏度"
+      }
+    },
+    {
+      "item": "图12单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 28,
+        "fonts": 3
+      }
+    },
+    {
+      "item": "图13题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          15
+        ],
+        "caption": "图13负载预测器误差对比"
+      }
+    },
+    {
+      "item": "图13单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 25,
+        "fonts": 2
+      }
+    },
+    {
+      "item": "图14题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          16
+        ],
+        "caption": "图14点预测基线的裕度与风险权衡"
+      }
+    },
+    {
+      "item": "图14单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 48,
+        "fonts": 3
+      }
+    },
+    {
+      "item": "图15题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          18
+        ],
+        "caption": "图15滚动决策信息集示意"
+      }
+    },
+    {
+      "item": "图15单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 28,
+        "fonts": 3
+      }
+    },
+    {
+      "item": "图16题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          18
+        ],
+        "caption": "图16同目标不同发布时刻预报"
+      }
+    },
+    {
+      "item": "图16单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 34,
+        "fonts": 2
+      }
+    },
+    {
+      "item": "图17题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          19
+        ],
+        "caption": "图17日前计划与滚动执行对照"
+      }
+    },
+    {
+      "item": "图17单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 55,
+        "fonts": 3
+      }
+    },
+    {
+      "item": "图18题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          20
+        ],
+        "caption": "图18滚动调整的净收益来源"
+      }
+    },
+    {
+      "item": "图18单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 32,
+        "fonts": 3
+      }
+    },
+    {
+      "item": "图19题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          20
+        ],
+        "caption": "图19两方案紧急购电日历对比"
+      }
+    },
+    {
+      "item": "图19单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 1384,
+        "fonts": 2
+      }
+    },
+    {
+      "item": "图20题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          21
+        ],
+        "caption": "图20预报插值一致性核查"
+      }
+    },
+    {
+      "item": "图20单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 124,
+        "fonts": 2
+      }
+    },
+    {
+      "item": "图21题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          22
+        ],
+        "caption": "图21逐月电价与固定基准对照"
+      }
+    },
+    {
+      "item": "图21单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 171,
+        "fonts": 2
+      }
+    },
+    {
+      "item": "图22题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          23
+        ],
+        "caption": "图22波动电价日期时刻热图"
+      }
+    },
+    {
+      "item": "图22单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 34,
+        "fonts": 4
+      }
+    },
+    {
+      "item": "图23题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          24
+        ],
+        "caption": "图23固定与波动电价指标对照"
+      }
+    },
+    {
+      "item": "图23单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 18,
+        "fonts": 2
+      }
+    },
+    {
+      "item": "图24题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          25
+        ],
+        "caption": "图24光伏预报误差随提前期变化"
+      }
+    },
+    {
+      "item": "图24单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 58,
+        "fonts": 2
+      }
+    },
+    {
+      "item": "图25题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          26
+        ],
+        "caption": "图25滚动策略收益区间与季节分解"
+      }
+    },
+    {
+      "item": "图25单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 46,
+        "fonts": 4
+      }
+    },
+    {
+      "item": "图26题注跨介质",
+      "passed": true,
+      "evidence": {
+        "pdf_pages": [
+          26
+        ],
+        "caption": "图26求解导出与交叉回算流程"
+      }
+    },
+    {
+      "item": "图26单页PDF",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "vector_paths": 21,
+        "fonts": 1
+      }
+    },
+    {
+      "item": "功率与单段电量单位换算",
+      "passed": true,
+      "evidence": "144 ten-minute slots; kW × 1/6 h = kWh"
+    },
+    {
+      "item": "滚动调整差额",
+      "passed": true,
+      "evidence": "2025-08-25"
+    },
+    {
+      "item": "瀑布费用分解",
+      "passed": true,
+      "evidence": {
+        "component_savings_yuan": [
+          595103.9100000001,
+          -501902.32,
+          -280033.55,
+          808616.4
+        ],
+        "net_yuan": 621784.4400000002
+      }
+    },
+    {
+      "item": "十二个月均曲线",
+      "passed": true,
+      "evidence": "365 × 144 original price matrix; no vertical offsets"
+    },
+    {
+      "item": "统计总量与季节分解 saving_vs_q3_internal_s0",
+      "passed": true,
+      "evidence": {
+        "total_yuan": 621784.4380770344,
+        "CI95_yuan": [
+          424863.9689075783,
+          877822.1095550662
+        ],
+        "days": 334
+      }
+    },
+    {
+      "item": "统计总量与季节分解 saving_vs_q2_two_stage",
+      "passed": true,
+      "evidence": {
+        "total_yuan": 567287.5234942643,
+        "CI95_yuan": [
+          373865.9910216578,
+          791124.377862147
+        ],
+        "days": 334
+      }
+    },
+    {
+      "item": "原文件保护 补齐约束.docx",
+      "passed": true,
+      "evidence": "b0033e85096e39c205364dd4d4193be29b58c645654bd5e93a2ae57496aca950"
+    },
+    {
+      "item": "原文件保护 补齐约束_restrained_v2.docx",
+      "passed": true,
+      "evidence": "3d89ca37b28b0b10d03614e9fb253cd935690eaa127b0b6b1b8e164a37dfbec5"
+    },
+    {
+      "item": "原文件保护 补齐约束_restrained_v1.docx",
+      "passed": true,
+      "evidence": "da6571a9debde68d00d3b72b6fc25cfd8d39e0e12fbd47e7285cbb4bb8aae522"
+    }
+  ],
+  "figures": [
+    {
+      "number": 1,
+      "id": "fig_roadmap",
+      "action": "重绘",
+      "page": 5,
+      "width_mm": 150,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-01.png"
+    },
+    {
+      "number": 2,
+      "id": "fig_energy_flow",
+      "action": "新增",
+      "page": 6,
+      "width_mm": 150,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-02.png"
+    },
+    {
+      "number": 3,
+      "id": "fig_att1_profile",
+      "action": "重绘",
+      "page": 7,
+      "width_mm": 150,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-03.png"
+    },
+    {
+      "number": 4,
+      "id": "fig_load_regime_ridgeline",
+      "action": "保留",
+      "page": 8,
+      "width_mm": 146.25,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-04.png"
+    },
+    {
+      "number": 5,
+      "id": "fig_load_calendar",
+      "action": "保留",
+      "page": 9,
+      "width_mm": 146.24997222222223,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-05.png"
+    },
+    {
+      "number": 6,
+      "id": "fig_regime_shape",
+      "action": "保留",
+      "page": 9,
+      "width_mm": 146.25,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-06.png"
+    },
+    {
+      "number": 7,
+      "id": "tikz_feasible_q1",
+      "action": "微调落位",
+      "page": 11,
+      "width_mm": 118,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-07.png"
+    },
+    {
+      "number": 8,
+      "id": "tikz_soc_corridor",
+      "action": "微调落位",
+      "page": 11,
+      "width_mm": 118,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-08.png"
+    },
+    {
+      "number": 9,
+      "id": "fig_q1_dispatch_stack",
+      "action": "保留",
+      "page": 12,
+      "width_mm": 146.25,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-09.png"
+    },
+    {
+      "number": 10,
+      "id": "fig_q1_soc_price",
+      "action": "保留",
+      "page": 12,
+      "width_mm": 146.25,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-10.png"
+    },
+    {
+      "number": 11,
+      "id": "fig_q1_savings_waterfall",
+      "action": "保留",
+      "page": 13,
+      "width_mm": 146.25,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-11.png"
+    },
+    {
+      "number": 12,
+      "id": "fig_eta_sensitivity",
+      "action": "保留",
+      "page": 14,
+      "width_mm": 146.25,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-12.png"
+    },
+    {
+      "number": 13,
+      "id": "fig_predictor_mae_bar",
+      "action": "保留",
+      "page": 15,
+      "width_mm": 146.25,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-13.png"
+    },
+    {
+      "number": 14,
+      "id": "fig_q2_margin_ucurve",
+      "action": "重绘",
+      "page": 16,
+      "width_mm": 150,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-14.png"
+    },
+    {
+      "number": 15,
+      "id": "tikz_info_set",
+      "action": "微调落位",
+      "page": 18,
+      "width_mm": 140,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-15.png"
+    },
+    {
+      "number": 16,
+      "id": "fig_forecast_same_target",
+      "action": "保留",
+      "page": 18,
+      "width_mm": 146.25,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-16.png"
+    },
+    {
+      "number": 17,
+      "id": "fig_q3_rolling_timeline",
+      "action": "重绘",
+      "page": 19,
+      "width_mm": 150,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-17.png"
+    },
+    {
+      "number": 18,
+      "id": "fig_q3_cost_decomp",
+      "action": "重绘",
+      "page": 20,
+      "width_mm": 150,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-18.png"
+    },
+    {
+      "number": 19,
+      "id": "fig_q2_emergency_calendar",
+      "action": "保留",
+      "page": 20,
+      "width_mm": 146.25,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-19.png"
+    },
+    {
+      "number": 20,
+      "id": "fig_q3_interp_check",
+      "action": "微调落位",
+      "page": 21,
+      "width_mm": 146.25,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-20.png"
+    },
+    {
+      "number": 21,
+      "id": "fig_q4_price_ridgeline",
+      "action": "重绘",
+      "page": 22,
+      "width_mm": 150,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-21.png"
+    },
+    {
+      "number": 22,
+      "id": "fig_q4_price_hovmoller",
+      "action": "保留",
+      "page": 23,
+      "width_mm": 146.25,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-22.png"
+    },
+    {
+      "number": 23,
+      "id": "fig_q4_fixed_vs_vol",
+      "action": "保留",
+      "page": 24,
+      "width_mm": 146.25,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-23.png"
+    },
+    {
+      "number": 24,
+      "id": "fig_forecast_decay",
+      "action": "保留",
+      "page": 25,
+      "width_mm": 146.25,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-24.png"
+    },
+    {
+      "number": 25,
+      "id": "fig_rolling_benefit_uncertainty",
+      "action": "新增",
+      "page": 26,
+      "width_mm": 150,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-25.png"
+    },
+    {
+      "number": 26,
+      "id": "fig_arch_solver",
+      "action": "重绘",
+      "page": 26,
+      "width_mm": 150,
+      "png_pdf_visual_review": "已人工查看实际PNG与PDF渲染对照",
+      "evidence": "review/current_figures/pair-26.png"
+    }
+  ],
+  "protected_files": [
+    {
+      "path": "D:\\26数模11\\26数模\\26数模实战\\modex_V1\\MHAgent_国赛 CUMCM C题 - C题_全部_20260912_011208\\workspace_revision_1_2_3_4_5_6_7_10_11\\paper\\补齐约束.docx",
+      "before": "b0033e85096e39c205364dd4d4193be29b58c645654bd5e93a2ae57496aca950",
+      "after": "b0033e85096e39c205364dd4d4193be29b58c645654bd5e93a2ae57496aca950",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\26数模11\\26数模\\26数模实战\\modex_V1\\MHAgent_国赛 CUMCM C题 - C题_全部_20260912_011208\\workspace_revision_1_2_3_4_5_6_7_10_11\\restrained_revision_2\\paper\\补齐约束_restrained_v2.docx",
+      "before": "3d89ca37b28b0b10d03614e9fb253cd935690eaa127b0b6b1b8e164a37dfbec5",
+      "after": "3d89ca37b28b0b10d03614e9fb253cd935690eaa127b0b6b1b8e164a37dfbec5",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\26数模11\\26数模\\26数模实战\\modex_V1\\MHAgent_国赛 CUMCM C题 - C题_全部_20260912_011208\\workspace_revision_1_2_3_4_5_6_7_10_11\\restrained_revision_1\\paper\\补齐约束_restrained_v1.docx",
+      "before": "da6571a9debde68d00d3b72b6fc25cfd8d39e0e12fbd47e7285cbb4bb8aae522",
+      "after": "da6571a9debde68d00d3b72b6fc25cfd8d39e0e12fbd47e7285cbb4bb8aae522",
+      "unchanged": true
+    }
+  ],
+  "docx_sha256": "05a79577364f1ea73043cba4f72755537e3c517240defe11f8328553503420c5",
+  "pdf_sha256": "380d1bea79c3347340390d8e134e0ffcd031a037b04222fc1c4cb58d187415fc",
+  "scope": "图件数据变换、嵌入和跨介质一致性；未重新求解模型，也不构成独立样本外验证。"
+}
